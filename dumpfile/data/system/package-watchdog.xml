@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
-<package-watchdog version="1">
-<observer name="rollback-observer">
-<package name="com.google.android.captiveportallogin" duration="1205999984" health-check-duration="9223372036854775807" passed-health-check="true" />
-<package name="com.google.android.modulemetadata" duration="1205999984" health-check-duration="9223372036854775807" passed-health-check="true" />
-<package name="com.google.android.networkstack" duration="1205999984" health-check-duration="3599709" passed-health-check="true" />
-</observer>
-</package-watchdog>

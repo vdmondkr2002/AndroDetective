@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
-<policy-list version="11" restrictBackground="false">
-<network-policy networkTemplate="1" subscriberId="310260000000000" cycleStart="2022-01-08T00:00+05:30[Asia/Calcutta]" cyclePeriod="P1M" warningBytes="2147483648" limitBytes="-1" lastWarningSnooze="-1" lastLimitSnooze="-1" metered="true" inferred="true" />
-<uid-policy uid="10045" policy="4" />
-<uid-policy uid="10089" policy="4" />
-<uid-policy uid="10098" policy="4" />
-</policy-list>
-<whitelist />

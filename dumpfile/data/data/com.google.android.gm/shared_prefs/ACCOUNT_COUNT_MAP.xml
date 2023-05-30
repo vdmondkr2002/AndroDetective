@@ -1,6 +1,0 @@
-<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
-<map>
-    <int name="NUM_OF_UNKNOWN_ACCOUNTS" value="0" />
-    <int name="NUM_OF_LEGACY_ACCOUNTS" value="0" />
-    <int name="NUM_OF_BTD_ACCOUNTS" value="1" />
-</map>
