@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <int name="corpus_clearing_status" value="2" />
+    <string name="last">btd</string>
+    <boolean name="initial_sync_completed" value="true" />
+    <string name="s_s_inbox_type">SECTIONED_INBOX</string>
+    <string name="status">not_required</string>
+</map>

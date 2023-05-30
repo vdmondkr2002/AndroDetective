@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<settings version="-1">
+  <setting id="0" name="userkey" value="C4B4CCB5B4D088FDF35D3DDB64C0B7C16F741CA6D078463ED78F25F78B5896F4" package="android" defaultValue="C4B4CCB5B4D088FDF35D3DDB64C0B7C16F741CA6D078463ED78F25F78B5896F4" defaultSysSet="true" tag="null" />
+  <setting id="1" name="10093" value="6cada662f36ed0f9" package="com.android.vending" defaultValue="6cada662f36ed0f9" defaultSysSet="false" tag="null" />
+  <setting id="4" name="10098" value="6cada662f36ed0f9" package="com.google.android.gms" defaultValue="6cada662f36ed0f9" defaultSysSet="false" tag="null" />
+  <setting id="7" name="10114" value="6cada662f36ed0f9" package="com.android.chrome" defaultValue="6cada662f36ed0f9" defaultSysSet="false" tag="null" />
+  <setting id="2" name="10116" value="6cada662f36ed0f9" package="com.google.android.calendar" defaultValue="6cada662f36ed0f9" defaultSysSet="false" tag="null" />
+  <setting id="5" name="10117" value="6cada662f36ed0f9" package="com.google.android.music" defaultValue="6cada662f36ed0f9" defaultSysSet="false" tag="null" />
+  <setting id="3" name="10121" value="41bf9385e86ea9dd" package="com.google.android.videos" defaultValue="41bf9385e86ea9dd" defaultSysSet="false" tag="null" />
+  <setting id="6" name="10136" value="ba97c15f5e68542c" package="com.microsoft.teams" defaultValue="ba97c15f5e68542c" defaultSysSet="false" tag="null" />
+</settings>

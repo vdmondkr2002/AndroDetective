@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<services>
+    <service uid="10135" type="com.whatsapp" />
+    <service uid="10120" type="com.google.android.gm.pop3" />
+    <service uid="10136" type="com.microsoft.teams" />
+    <service uid="10098" type="com.google" />
+    <service uid="10088" type="com.google.android.apps.tachyon" />
+    <service uid="10120" type="com.google.android.gm.exchange" />
+    <service uid="10120" type="com.google.android.gm.legacyimap" />
+</services>

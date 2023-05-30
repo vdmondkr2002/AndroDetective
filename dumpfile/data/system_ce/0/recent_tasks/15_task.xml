@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<task task_id="15" real_activity="com.whatsapp/.Main" real_activity_suspended="false" affinity="com.whatsapp" root_has_reset="true" auto_remove_recents="false" asked_compat_mode="false" user_id="0" user_setup_complete="true" effective_uid="10135" last_time_moved="1685383738287" never_relinquish_identity="true" task_description_color="ff008069" task_description_colorBackground="fffafafa" task_affiliation_color="-16744343" task_affiliation="15" prev_affiliation="-1" next_affiliation="-1" calling_uid="10135" calling_package="com.whatsapp" resize_mode="1" supports_picture_in_picture="false" min_width="-1" min_height="-1" persist_task_version="1">
+<intent action="android.intent.action.MAIN" component="com.whatsapp/.Main" flags="10200000">
+<categories category="android.intent.category.LAUNCHER" />
+</intent>
+</task>
+

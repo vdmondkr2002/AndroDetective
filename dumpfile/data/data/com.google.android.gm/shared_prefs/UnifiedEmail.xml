@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <int name="offline-search-index-corpus-version" value="2" />
+    <boolean name="email-accounts-import-tried" value="true" />
+    <boolean name="gm-warm-welcome-shown-v2" value="true" />
+    <long name="analytics-send-nb_accounts-epoch" value="1685374213426" />
+    <int name="auto-advance-mode" value="0" />
+    <int name="offline-search-index-schema-version" value="2" />
+    <set name="display_images" />
+    <boolean name="sc-onboarding-shown-v2" value="true" />
+    <boolean name="conversation-photo-teaser-shown-three" value="true" />
+    <boolean name="confirm-archive" value="false" />
+    <string name="gm-density">DEFAULT</string>
+    <long name="dots_animation_timestamp" value="1685373484784" />
+    <long name="owners_name_cache_updated_timestamp" value="1685373481758" />
+    <int name="snap-header-mode" value="0" />
+    <string name="default-reply-action">unset</string>
+    <boolean name="non-release-build" value="true" />
+    <string name="custom-swipe-actions-onboarding-card-state">pending</string>
+    <boolean name="conversation-overview-mode" value="true" />
+    <set name="display_sender_images_patterns_set" />
+    <boolean name="confirm-send" value="false" />
+    <boolean name="conversation-list-sender-image" value="true" />
+    <boolean name="account-switcher-highlight-shown" value="true" />
+    <string name="email_address_prefix:bookxchanger7@gmail.com">Book Xchanger</string>
+    <boolean name="confirm-delete" value="false" />
+    <int name="migrated-version" value="4" />
+    <int name="prefs-version-number" value="4" />
+</map>

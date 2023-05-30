@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="andfyp1234@gmail.com-account-alias">andfyp1234@gmail.com</string>
+    <string name="bookxchanger7@gmail.com-promo_tab_logging_id">CAISEwjGrKmbsJf_AhW3E_kAHSZdCMY</string>
+    <string name="active-account">bookxchanger7@gmail.com</string>
+    <string name="removal-action">archive</string>
+    <boolean name="conversation-overview-mode" value="true" />
+    <string name="bookxchanger7@gmail.com-promo_tab_offer_section_label_text">Top Picks</string>
+    <boolean name="conversation-list-swipe" value="true" />
+    <boolean name="force_show_welcome_tour" value="false" />
+    <boolean name="confirm-archive" value="false" />
+    <string name="bookxchanger7@gmail.com-promo_tab_email_section_label_text">Remaining Promotions</string>
+    <boolean name="confirm-send" value="false" />
+    <boolean name="bookxchanger7@gmail.com-promo_tab_top_offers_enabled_for_non_en" value="true" />
+    <boolean name="confirm-delete" value="false" />
+    <string name="bookxchanger7@gmail.com-account-alias">bookxchanger7@gmail.com</string>
+    <int name="welcome_tour_version" value="1" />
+    <boolean name="mail-enable-threading" value="true" />
+    <string name="cache-google-accounts-synced">bookxchanger7@gmail.com</string>
+    <boolean name="bookxchanger7@gmail.com-hide_promo_section_header" value="false" />
+</map>

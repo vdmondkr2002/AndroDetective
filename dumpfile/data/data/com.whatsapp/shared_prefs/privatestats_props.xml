@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <long name="time_to_live" value="79477" />
+    <long name="base_timestamp" value="1685370801" />
+    <string name="shared_secret">5Dv_01MRmu6JapNilsPLeyiKP-IjMU-kZr_MvBDY2qj_fL7FdLE9Lc4oFxAg9O1iJ0fGqpbb9qdp87lZna_Yfg==</string>
+    <int name="first_token_stage" value="2" />
+    <string name="original_token">7AQVzC4DpVMRnjQrO_mKMr4hPisVm4M-ePjXpUfhxUI=</string>
+    <int name="redeem_count" value="12" />
+    <string name="dleq_proof_c">jeTWWrenvslxz8e1maH5N-LxPUuUuec2ahwNZWrEbQY=</string>
+    <string name="dleq_proof_s">KwPOqnB-Ax2JE68qXWKr17fntsc0ANKJEkUw49Ydkgs=</string>
+</map>

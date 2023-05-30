@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<daily-items>
+<item start="1675854737013" end="1685108127963">
+<upd pkg="com.topjohnwu.magisk" ver="25200" />
+<upd pkg="com.topjohnwu.magisk" ver="25200" />
+<upd pkg="com.android.vending" ver="83151810" />
+<upd pkg="com.android.vending" ver="83151810" />
+<upd pkg="com.android.vending" ver="83431810" />
+<upd pkg="com.android.vending" ver="83431810" />
+<upd pkg="com.google.android.googlequicksearchbox" ver="301225158" />
+<upd pkg="com.google.android.googlequicksearchbox" ver="301225158" />
+<upd pkg="com.google.android.gms" ver="230313031" />
+<upd pkg="com.google.android.gms" ver="230313031" />
+<upd pkg="com.whatsapp" ver="230276003" />
+<upd pkg="com.whatsapp" ver="230276003" />
+<upd pkg="com.microsoft.teams" ver="2023012722" />
+<upd pkg="com.microsoft.teams" ver="2023012722" />
+<upd pkg="com.example.taskmanagercompose" ver="1" />
+<upd pkg="com.example.taskmanagercompose" ver="1" />
+<upd pkg="com.example.taskmanagercompose.test" ver="0" />
+<upd pkg="com.example.taskmanagercompose.test" ver="0" />
+<upd pkg="com.example.taskmanagercompose" ver="1" />
+<upd pkg="com.example.taskmanagercompose" ver="1" />
+<upd pkg="com.example.composequadrant" ver="1" />
+<upd pkg="com.example.composequadrant" ver="1" />
+<upd pkg="com.example.composequadrant.test" ver="0" />
+<upd pkg="com.example.composequadrant.test" ver="0" />
+<upd pkg="com.example.composequadrant" ver="1" />
+<upd pkg="com.example.composequadrant" ver="1" />
+<upd pkg="com.example.composequadrant" ver="1" />
+<upd pkg="com.example.composequadrant" ver="1" />
+<upd pkg="com.example.composequadrant" ver="1" />
+<upd pkg="com.example.composequadrant" ver="1" />
+<upd pkg="com.example.emptyproject" ver="1" />
+<upd pkg="com.example.emptyproject" ver="1" />
+<upd pkg="com.android.vending" ver="83581220" />
+<upd pkg="com.android.vending" ver="83581220" />
+</item>
+<item start="1685108127963" end="1685259711251">
+<upd pkg="com.google.android.modulemetadata" ver="331341040" />
+<upd pkg="com.google.android.modulemetadata" ver="331341040" />
+<upd pkg="com.google.android.captiveportallogin" ver="331313030" />
+<upd pkg="com.google.android.captiveportallogin" ver="331313030" />
+<upd pkg="com.google.android.networkstack" ver="331313010" />
+<upd pkg="com.google.android.networkstack" ver="331313010" />
+</item>
+<item start="1685259711251" end="1685381761816">
+<upd pkg="com.google.ar.core" ver="231000443" />
+<upd pkg="com.google.ar.core" ver="231000443" />
+<upd pkg="com.google.android.music" ver="91131" />
+<upd pkg="com.google.android.music" ver="91131" />
+<upd pkg="com.google.android.deskclock" ver="74100498" />
+<upd pkg="com.google.android.deskclock" ver="74100498" />
+<upd pkg="com.google.android.ims" ver="31102723" />
+<upd pkg="com.google.android.ims" ver="31102723" />
+<upd pkg="com.google.android.webview" ver="567213131" />
+<upd pkg="com.google.android.webview" ver="567213131" />
+<upd pkg="com.google.android.videos" ver="439048756" />
+<upd pkg="com.google.android.videos" ver="439048756" />
+<upd pkg="com.android.chrome" ver="567216236" />
+<upd pkg="com.android.chrome" ver="567216236" />
+<upd pkg="com.google.android.apps.wallpaper" ver="200000010" />
+<upd pkg="com.google.android.apps.wallpaper" ver="200000010" />
+</item>
+<item start="1685381761816" end="1685423452538">
+<upd pkg="com.google.android.captiveportallogin" ver="331610000" />
+<upd pkg="com.google.android.captiveportallogin" ver="331610000" />
+<upd pkg="com.google.android.networkstack" ver="331710000" />
+<upd pkg="com.google.android.networkstack" ver="331710000" />
+<upd pkg="com.google.android.modulemetadata" ver="331731000" />
+<upd pkg="com.google.android.modulemetadata" ver="331731000" />
+</item>
+</daily-items>

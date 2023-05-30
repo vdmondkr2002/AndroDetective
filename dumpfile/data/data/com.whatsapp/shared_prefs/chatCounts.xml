@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="120363158896644413@g.us">5,3,0,0,0,0,0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null</string>
+    <string name="919146695676@s.whatsapp.net">0,2,0,0,0,0,0,null,null,null,null,null,null,true,null,null,null,1685424437125,null,null,null,null,null,null</string>
+    <string name="919168282534@s.whatsapp.net_voip">1,0,21,0,1,1,0,0,0,0,0</string>
+    <string name="919146695676@s.whatsapp.net_voip">1,0,0,0,1,0,1,0,0,0,0</string>
+    <string name="thread_user_secret">18oHhHhiAY71QqGco1gTyTyJoKbTijPROk4XscAZc5Y=</string>
+    <string name="919146695676@s.whatsapp.net_notification">2,null,null,null,null,null,null,null,null</string>
+    <long name="start_time_ms" value="1685376984885" />
+    <string name="120363158896644413@g.us_voip">1,0,40,0,1,1,0,0,0,0,0</string>
+</map>

@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<settings version="-1">
+  <setting id="188" name="runtime_native/use_app_image_startup_cache" value="true" package="com.google.android.gms" />
+  <setting id="431" name="netd_native/Phenotype_flags" value="dns_event_subsample_map:doh:dot_query_timeout_ms:keep_listening_udp:parallel_lookup:parallel_lookup_sleep_time:retransmission_time_interval:retry_count" package="com.google.android.gms" defaultValue="dns_event_subsample_map:doh:dot_query_timeout_ms:keep_listening_udp:parallel_lookup:parallel_lookup_sleep_time:retransmission_time_interval:retry_count" defaultSysSet="false" tag="null" />
+  <setting id="346" name="app_hibernation/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="333" name="adservices/enrollment_blocklist_ids" value="" package="com.google.android.gms" />
+  <setting id="340" name="alarm_manager/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="449" name="content_capture/Phenotype_flags" value="enable_contentcapture:idle_flush_frequency:service_explicitly_enabled" package="com.google.android.gms" defaultValue="enable_contentcapture:idle_flush_frequency:service_explicitly_enabled" defaultSysSet="false" tag="null" />
+  <setting id="484" name="camera_native/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="312" name="interaction_jank_monitor/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="68" name="storage_native_boot/_boot_Phenotype_flags" value="take_over_get_content" package="com.google.android.gms" defaultValue="take_over_get_content" defaultSysSet="false" tag="null" />
+  <setting id="233" name="storage_native_boot/take_over_get_content" value="false" package="com.google.android.gms" defaultValue="false" defaultSysSet="false" tag="null" />
+  <setting id="455" name="connectivity_thermal_power_manager/atm_power_threshold_mw" value="800" package="com.google.android.gms" />
+  <setting id="99" name="connectivity/ipclient_garp_na_roaming_version" value="999999999" package="com.google.android.gms" />
+  <setting id="476" name="app_cloning/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="167" name="netd_native/parallel_lookup" value="0" package="com.google.android.gms" />
+  <setting id="83" name="autofill/smart_suggestion_supported_modes" value="1" package="com.google.android.gms" />
+  <setting id="108" name="content_capture/service_explicitly_enabled" value="default" package="com.google.android.gms" />
+  <setting id="482" name="kiwi/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="137" name="device_personalization_services/Captions__visibility_stopped_duration_millis" value="1500" package="com.google.android.gms" />
+  <setting id="121" name="device_personalization_services/Captions__enable_westworld_logging" value="false" package="com.google.android.gms" />
+  <setting id="310" name="ipsec/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="352" name="on_device_abuse/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="283" name="exo/is_exo_eng" value="false" package="com.google.android.gms" />
+  <setting id="370" name="input_native/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="163" name="netd_native/dot_query_timeout_ms" value="-1" package="com.google.android.gms" />
+  <setting id="261" name="swcodec_native/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="300" name="memory_safety_native/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="63" name="runtime_native_boot/_boot_Phenotype_flags" value="disable_lock_profiling" package="com.google.android.gms" defaultValue="disable_lock_profiling" defaultSysSet="false" tag="null" />
+  <setting id="402" name="location/adas_settings_allowlist" value="" package="com.google.android.gms" />
+  <setting id="285" name="exo/log_exo_metrics" value="false" package="com.google.android.gms" />
+  <setting id="154" name="intelligence_bubbles/intelligence_bubbles_webref_superpacks_manifest_version" value="20051000" package="com.google.android.gms" />
+  <setting id="125" name="device_personalization_services/Captions__manifest_url_template" value="https://storage.googleapis.com/captions/%{NAMESPACE}_%{VERSION}_manifest.json" package="com.google.android.gms" />
+  <setting id="267" name="exo/app_scaling_allowed_components" value="" package="com.google.android.gms" />
+  <setting id="250" name="odad/binary_transparency_log_signature_verification_key" value="" package="com.google.android.gms" />
+  <setting id="424" name="activity_manager_native_boot/offload_queue_enabled" value="null" package="com.google.android.gms" defaultValue="false" defaultSysSet="false" tag="null" />
+  <setting id="344" name="oslo/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="505" name="health_connect/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="372" name="game_overlay/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="41" name="storage/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="492" name="media_better_together/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="200" name="systemui/nas_generate_replies" value="true" package="com.google.android.gms" />
+  <setting id="202" name="systemui/nas_max_messages_to_extract" value="5" package="com.google.android.gms" />
+  <setting id="302" name="settings_stats/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="115" name="device_personalization_services/Captions__enable_clearcut_logging" value="true" package="com.google.android.gms" />
+  <setting id="253" name="odad/Phenotype_flags" value="binary_transparency_log_signature_verification_key:enable_sample_param" package="com.google.android.gms" defaultValue="binary_transparency_log_signature_verification_key:enable_sample_param" defaultSysSet="false" tag="null" />
+  <setting id="327" name="aiai_controlled_releases/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="422" name="profcollect_native_boot/_boot_Phenotype_flags" value="" package="com.google.android.gms" defaultValue="" defaultSysSet="false" tag="null" />
+  <setting id="37" name="runtime/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="119" name="device_personalization_services/Captions__enable_setting_page" value="false" package="com.google.android.gms" />
+  <setting id="366" name="virtualization_framework_native/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="362" name="rollback/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="19" name="intelligence_attention/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="434" name="device_personalization_services/Translate__enable_spa_setting" value="false" package="com.google.android.gms" />
+  <setting id="273" name="exo/app_streaming_task_navigation_allowed_components" value="" package="com.google.android.gms" />
+  <setting id="193" name="system_scheduler/EnableFastMetricsCollection__dummy_flag" value="true" package="com.google.android.gms" />
+  <setting id="304" name="leaked_animator/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="294" name="ota/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="74" name="app_compat/hidden_api_access_log_sampling_rate" value="0" package="com.google.android.gms" />
+  <setting id="161" name="netd_native/doh" value="0" package="com.google.android.gms" />
+  <setting id="210" name="systemui/ssin_max_num_actions" value="-1" package="com.google.android.gms" />
+  <setting id="27" name="intelligence_text/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="212" name="systemui/ssin_max_squeeze_remeasure_attempts" value="3" package="com.google.android.gms" />
+  <setting id="472" name="touchflow_native/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="464" name="system_server_watchdog/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="414" name="surface_flinger_native_boot/_boot_Phenotype_flags" value="" package="com.google.android.gms" defaultValue="" defaultSysSet="false" tag="null" />
+  <setting id="468" name="input_method/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="413" name="vendor_system_native_boot/_boot_Phenotype_flags" value="" package="com.google.android.gms" defaultValue="" defaultSysSet="false" tag="null" />
+  <setting id="23" name="intelligence_notification_assistant/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="394" name="nnapi_native/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="358" name="window_manager/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="334" name="adservices/Phenotype_flags" value="enrollment_blocklist_ids" package="com.google.android.gms" defaultValue="enrollment_blocklist_ids" defaultSysSet="false" tag="null" />
+  <setting id="448" name="content_capture/idle_flush_frequency" value="5000" package="com.google.android.gms" />
+  <setting id="281" name="exo/is_exo_dogfood" value="false" package="com.google.android.gms" />
+  <setting id="252" name="odad/enable_sample_param" value="false" package="com.google.android.gms" />
+  <setting id="183" name="privacy/permissions_hub_enabled" value="false" package="com.google.android.gms" />
+  <setting id="214" name="systemui/ssin_min_num_system_generated_replies" value="0" package="com.google.android.gms" />
+  <setting id="458" name="configuration/AdbWritableFlags__adb_writable_flags_list" value="adservices/disable_sdk_sandbox,adservices/enforce_broadcast_receiver_restrictions,adservices/fledge_ad_selection_enforce_foreground_status_custom_audience,adservices/fledge_custom_audience_max_count,adservices/fledge_custom_audience_max_num_ads,adservices/fledge_custom_audience_max_owner_count,adservices/fledge_custom_audience_per_app_max_count,adservices/fledge_js_isolate_enforce_max_heap_size,adservices/fledge_js_isolate_max_heap_size_bytes,adservices/sdk_request_permits_per_second,adservices/sdksandbox_customized_sdk_context_enabled,configuration/namespace_to_package_mapping,constrain_display_apis/always_constrain_display_apis,constrain_display_apis/never_constrain_display_apis,constrain_display_apis/never_constrain_display_apis_all_packages,device_policy_manager/disable_resources_updatability,flipendo/default_savings_mode_launch,flipendo/essential_apps,flipendo/flipendo_enabled_launch,flipendo/grayscale_enabled_launch,flipendo/lever_ble_scanning_enabled_launch,flipendo/lever_hotspot_enabled_launch,flipendo/lever_work_profile_enabled_launch,flipendo/resuspend_delay_minutes,namespace/key,namespace1/key1,namespace1/key2,namespace2/key1,namespace2/key2,package_manager_service/incfs_default_timeouts,package_manager_service/known_digesters_list,privacy/location_access_check_periodic_interval_millis,rollback/enable_rollback_timeout,rollback/watchdog_explicit_health_check_enabled,rollback/watchdog_request_timeout_millis,rollback/watchdog_trigger_failure_count,rollback/watchdog_trigger_failure_duration_millis,rollback_boot/rollback_lifetime_in_millis,systemui/nas_generate_actions,systemui/nas_generate_replies,systemui/nas_max_messages_to_extract,systemui/nas_max_suggestions,testspace/another,testspace/flagname,textclassifier/config_updater_model_enabled,textclassifier/key,textclassifier/key2,textclassifier/manifest_url_annotator_en,textclassifier/manifest_url_annotator_ru,textclassifier/model_download_backoff_delay_in_millis,textclassifier/model_download_manager_enabled,textclassifier/multi_language_support_enabled,textclassifier/testing_locale_list_override,textclassifier/textclassifier_service_package_override,window_manager/enable_default_rescind_bal_privileges_from_pending_intent_sender,wrong/nas_generate_replies," package="com.google.android.gms" defaultValue="adservices/disable_sdk_sandbox,adservices/enforce_broadcast_receiver_restrictions,adservices/fledge_ad_selection_enforce_foreground_status_custom_audience,adservices/fledge_custom_audience_max_count,adservices/fledge_custom_audience_max_num_ads,adservices/fledge_custom_audience_max_owner_count,adservices/fledge_custom_audience_per_app_max_count,adservices/fledge_js_isolate_enforce_max_heap_size,adservices/fledge_js_isolate_max_heap_size_bytes,adservices/sdk_request_permits_per_second,adservices/sdksandbox_customized_sdk_context_enabled,configuration/namespace_to_package_mapping,constrain_display_apis/always_constrain_display_apis,constrain_display_apis/never_constrain_display_apis,constrain_display_apis/never_constrain_display_apis_all_packages,device_policy_manager/disable_resources_updatability,flipendo/default_savings_mode_launch,flipendo/essential_apps,flipendo/flipendo_enabled_launch,flipendo/grayscale_enabled_launch,flipendo/lever_ble_scanning_enabled_launch,flipendo/lever_hotspot_enabled_launch,flipendo/lever_work_profile_enabled_launch,flipendo/resuspend_delay_minutes,namespace/key,namespace1/key1,namespace1/key2,namespace2/key1,namespace2/key2,package_manager_service/incfs_default_timeouts,package_manager_service/known_digesters_list,rollback/enable_rollback_timeout,rollback/watchdog_explicit_health_check_enabled,rollback/watchdog_request_timeout_millis,rollback/watchdog_trigger_failure_count,rollback/watchdog_trigger_failure_duration_millis,rollback_boot/rollback_lifetime_in_millis,systemui/nas_generate_actions,systemui/nas_generate_replies,systemui/nas_max_messages_to_extract,systemui/nas_max_suggestions,testspace/another,testspace/flagname,textclassifier/config_updater_model_enabled,textclassifier/key,textclassifier/key2,textclassifier/manifest_url_annotator_en,textclassifier/manifest_url_annotator_ru,textclassifier/model_download_backoff_delay_in_millis,textclassifier/model_download_manager_enabled,textclassifier/multi_language_support_enabled,textclassifier/testing_locale_list_override,textclassifier/textclassifier_service_package_override,window_manager/enable_default_rescind_bal_privileges_from_pending_intent_sender,wrong/nas_generate_replies," defaultSysSet="false" tag="null" />
+  <setting id="255" name="app_compat_overrides/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="76" name="app_compat/hidden_api_access_statslog_sampling_rate" value="0" package="com.google.android.gms" />
+  <setting id="451" name="exo/app_streaming_blocked_components" value="com.android.server.telecom/.components.UserCallActivity,com.google.android.dialer,com.google.android.GoogleCamera,com.google.android.apps.googlecamera.fishfood,com.google.android.projection.gearhead,com.android.settings,com.android.vending,com.google.android.apps.nexuslauncher,com.google.ambient.streaming,com.google.android.setupwizard,com.google.android.apps.googleassistant" package="com.google.android.gms" defaultValue="com.android.settings,&#10;        com.android.vending,&#10;        com.google.android.dialer,&#10;        com.android.server.telecom/.components.UserCallActivity,&#10;        com.google.android.gm,&#10;        com.google.android.apps.dynamite" defaultSysSet="false" tag="null" />
+  <setting id="165" name="netd_native/keep_listening_udp" value="0" package="com.google.android.gms" />
+  <setting id="354" name="statsd_native/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="318" name="flipendo/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="409" name="wallpaper_content/G_WALLPAPER_GALLERY" value="false" package="com.google.android.gms" />
+  <setting id="325" name="launcher/Phenotype_flags" value="ENABLE_SMARTSPACE_ENHANCED" package="com.google.android.gms" defaultValue="ENABLE_SMARTSPACE_ENHANCED" defaultSysSet="false" tag="null" />
+  <setting id="388" name="battery_saver/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="348" name="car/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="227" name="telephony/ramping_ringer_vibration_duration" value="5000" package="com.google.android.gms" />
+  <setting id="263" name="device_idle/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="189" name="runtime_native/Phenotype_flags" value="use_app_image_startup_cache" package="com.google.android.gms" defaultValue="use_app_image_startup_cache" defaultSysSet="false" tag="null" />
+  <setting id="257" name="clipboard/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="368" name="attention_manager_service/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="474" name="shared/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="277" name="exo/enter_to_send_app_packages" value="com.whatsapp,com.facebook.orca,com.google.pixel.exo.android.testapp.timeviewer,&#10;com.google.android.apps.messaging,&#10;org.telegram.messenger,&#10;org.thunderdog.challegram,&#10;com.viber.voip,&#10;com.whatsapp.w4b,&#10;jp.naver.line.android,&#10;com.imo.android.imous,&#10;com.discord,&#10;com.facebook.mlite,&#10;com.zing.zalo,&#10;com.skype.raider,&#10;org.thoughtcrime.securesms,&#10;com.google.android.apps.dynamite,&#10;com.google.android.apps.tachyon,&#10;com.abtalk.freecall,&#10;com.azarlive.android,&#10;com.snapchat.android,&#10;com.instagram.android,&#10;com.kakao.talk,&#10;com.tencent.mm,&#10;com.linkedin.android,&#10;com.cisco.wx2.android,&#10;com.Slack,&#10;com.google.android.apps.googlevoice,&#10;com.twitter.android,&#10;com.zhiliaoapp.musically,&#10;com.nextdoor,&#10;com.google.android.apps.photos,&#10;com.clubhouse.app,&#10;com.groupme.android,&#10;com.facebook.workchat,&#10;com.facebook.talk,&#10;com.microsoft.teams,&#10;com.textra,&#10;kik.android,&#10;com.verizon.messaging.vzmsgs" package="com.google.android.gms" />
+  <setting id="456" name="connectivity_thermal_power_manager/Phenotype_flags" value="atm_power_threshold_mw" package="com.google.android.gms" defaultValue="atm_power_threshold_mw" defaultSysSet="false" tag="null" />
+  <setting id="440" name="connectivity/ip_reachability_ignore_incompleted_ipv6_dns_server_version" value="0" package="com.google.android.gms" />
+  <setting id="289" name="exo/tile_is_available" value="false" package="com.google.android.gms" />
+  <setting id="216" name="systemui/ssin_requires_targeting_p" value="true" package="com.google.android.gms" />
+  <setting id="486" name="hdmi_control/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="396" name="tethering/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="176" name="notification_assistant/generate_replies" value="false" package="com.google.android.gms" />
+  <setting id="25" name="intelligence_screen_understanding/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="129" name="device_personalization_services/Captions__model_version_v1_2" value="20200112" package="com.google.android.gms" />
+  <setting id="430" name="netd_native/retry_count" value="2" package="com.google.android.gms" />
+  <setting id="421" name="statsd_native_boot/_boot_Phenotype_flags" value="" package="com.google.android.gms" defaultValue="" defaultSysSet="false" tag="null" />
+  <setting id="329" name="widget/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="384" name="bluetooth/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="81" name="autofill/augmented_autofill_mode" value="1" package="com.google.android.gms" />
+  <setting id="33" name="package_manager_service/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="228" name="telephony/Phenotype_flags" value="ramping_ringer_duration:ramping_ringer_enabled:ramping_ringer_vibration_duration" package="com.google.android.gms" defaultValue="ramping_ringer_duration:ramping_ringer_enabled:ramping_ringer_vibration_duration" defaultSysSet="false" tag="null" />
+  <setting id="291" name="exo/use_encrypted_transport" value="false" package="com.google.android.gms" />
+  <setting id="279" name="exo/include_default_browser_in_allowed_task_navigation_components" value="false" package="com.google.android.gms" />
+  <setting id="139" name="device_personalization_services/Overview__enable_lens" value="false" package="com.google.android.gms" />
+  <setting id="466" name="devicelock/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="218" name="systemui/ssin_show_in_heads_up" value="true" package="com.google.android.gms" />
+  <setting id="177" name="notification_assistant/Phenotype_flags" value="generate_actions:generate_replies" package="com.google.android.gms" defaultValue="generate_actions:generate_replies" defaultSysSet="false" tag="null" />
+  <setting id="503" name="shared_native_boot/_boot_Phenotype_flags" value="" package="com.google.android.gms" defaultValue="" defaultSysSet="false" tag="null" />
+  <setting id="423" name="statsd_java_boot/_boot_Phenotype_flags" value="" package="com.google.android.gms" defaultValue="" defaultSysSet="false" tag="null" />
+  <setting id="97" name="connectivity/ip_reachability_mcast_resolicit_version" value="999999999" package="com.google.android.gms" />
+  <setting id="181" name="privacy/location_access_check_enabled" value="true" package="com.google.android.gms" />
+  <setting id="92" name="configuration/flag_two" value="false" package="com.google.android.gms" />
+  <setting id="442" name="connectivity/ipclient_gratuitous_na_version" value="0" package="com.google.android.gms" />
+  <setting id="445" name="connectivity/Phenotype_flags" value="ip_reachability_ignore_incompleted_ipv6_default_router_version:ip_reachability_ignore_incompleted_ipv6_dns_server_version:ip_reachability_mcast_resolicit_version:ipclient_garp_na_roaming_version:ipclient_gratuitous_na_version:ipclient_multicast_ns_version:ipclient_parse_netlink_events_version" package="com.google.android.gms" defaultValue="ip_reachability_ignore_incompleted_ipv6_default_router_version:ip_reachability_ignore_incompleted_ipv6_dns_server_version:ip_reachability_mcast_resolicit_version:ipclient_garp_na_roaming_version:ipclient_gratuitous_na_version:ipclient_multicast_ns_version:ipclient_parse_netlink_events_version" defaultSysSet="false" tag="null" />
+  <setting id="480" name="launcher_lily/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="232" name="runtime_native_boot/disable_lock_profiling" value="false" package="com.google.android.gms" defaultValue="false" defaultSysSet="false" tag="null" />
+  <setting id="152" name="intelligence_bubbles/intelligence_bubbles_webref_superpacks_manifest_url_template" value="https://gstatic.com/matchmaker/demo/bubbles/20051000/2/en-us/superpacks_manifest.zip" package="com.google.android.gms" />
+  <setting id="502" name="device_policy_manager/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="93" name="configuration/Phenotype_flags" value="AdbWritableFlags__adb_writable_flags_list:flag:flag_two" package="com.google.android.gms" defaultValue="AdbWritableFlags__adb_writable_flags_list:flag:flag_two" defaultSysSet="false" tag="null" />
+  <setting id="204" name="systemui/nas_max_suggestions" value="3" package="com.google.android.gms" />
+  <setting id="500" name="backup_and_restore/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="7" name="backup_service/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="488" name="credential_manager/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="316" name="app_standby/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="223" name="telephony/ramping_ringer_duration" value="10000" package="com.google.android.gms" />
+  <setting id="374" name="captive_portal_login/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="378" name="display_manager/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="113" name="device_personalization_services/Captions__enable" value="false" package="com.google.android.gms" />
+  <setting id="416" name="sdk_sandbox/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="231" name="rollback_boot/_boot_Phenotype_flags" value="" package="com.google.android.gms" defaultValue="" defaultSysSet="false" tag="null" />
+  <setting id="90" name="configuration/flag" value="false" package="com.google.android.gms" />
+  <setting id="336" name="wear/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="198" name="systemui/nas_generate_actions" value="true" package="com.google.android.gms" />
+  <setting id="490" name="remote_key_provisioning_native/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="230" name="input_native_boot/_boot_Phenotype_flags" value="" package="com.google.android.gms" defaultValue="" defaultSysSet="false" tag="null" />
+  <setting id="143" name="device_personalization_services/Translate__enable_default_langid_model" value="false" package="com.google.android.gms" />
+  <setting id="147" name="device_personalization_services/VisualCortex__enable_whitelist_packages" value="true" package="com.google.android.gms" />
+  <setting id="287" name="exo/need_scale_screen" value="true" package="com.google.android.gms" />
+  <setting id="350" name="tare/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="135" name="device_personalization_services/Captions__visibility_playing_duration_millis" value="5000" package="com.google.android.gms" />
+  <setting id="1" name="activity_manager/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="242" name="uwb/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="298" name="system_time/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="123" name="device_personalization_services/Captions__enable_zero_day" value="false" package="com.google.android.gms" />
+  <setting id="194" name="system_scheduler/Phenotype_flags" value="EnableFastMetricsCollection__dummy_flag" package="com.google.android.gms" defaultValue="EnableFastMetricsCollection__dummy_flag" defaultSysSet="false" tag="null" />
+  <setting id="292" name="exo/Phenotype_flags" value="app_scaling_allowed_components:app_streaming_allowed_components:app_streaming_blocked_components:app_streaming_task_navigation_allowed_components:app_streaming_task_navigation_blocked_components:enter_to_send_app_packages:include_default_browser_in_allowed_task_navigation_components:is_exo_dogfood:is_exo_eng:log_exo_metrics:need_scale_screen:tile_is_available:use_encrypted_transport" package="com.google.android.gms" defaultValue="app_scaling_allowed_components:app_streaming_allowed_components:app_streaming_blocked_components:app_streaming_task_navigation_allowed_components:app_streaming_task_navigation_blocked_components:enter_to_send_app_packages:include_default_browser_in_allowed_task_navigation_components:is_exo_dogfood:is_exo_eng:log_exo_metrics:need_scale_screen:tile_is_available:use_encrypted_transport" defaultSysSet="false" tag="null" />
+  <setting id="478" name="auto_pin_confirmation/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="410" name="wallpaper_content/Phenotype_flags" value="G_WALLPAPER_GALLERY" package="com.google.android.gms" defaultValue="G_WALLPAPER_GALLERY" defaultSysSet="false" tag="null" />
+  <setting id="435" name="device_personalization_services/Phenotype_flags" value="Captions__enable:Captions__enable_clearcut_logging:Captions__enable_punctuations:Captions__enable_setting_page:Captions__enable_westworld_logging:Captions__enable_zero_day:Captions__manifest_url_template:Captions__model_version_v1:Captions__model_version_v1_2:Captions__speech_threshold:Captions__surface_sound_events:Captions__visibility_playing_duration_millis:Captions__visibility_stopped_duration_millis:Overview__enable_lens:SmartRecPixelSearch__enable_search_on_files:Translate__enable_default_langid_model:Translate__enable_spa_setting:VisualCortex__enable:VisualCortex__enable_whitelist_packages" package="com.google.android.gms" defaultValue="Captions__enable:Captions__enable_clearcut_logging:Captions__enable_punctuations:Captions__enable_setting_page:Captions__enable_westworld_logging:Captions__enable_zero_day:Captions__manifest_url_template:Captions__model_version_v1:Captions__model_version_v1_2:Captions__speech_threshold:Captions__surface_sound_events:Captions__visibility_playing_duration_millis:Captions__visibility_stopped_duration_millis:Overview__enable_lens:SmartRecPixelSearch__enable_search_on_files:Translate__enable_default_langid_model:Translate__enable_spa_setting:VisualCortex__enable:VisualCortex__enable_whitelist_packages" defaultSysSet="false" tag="null" />
+  <setting id="398" name="mglru_native/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="338" name="media/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="169" name="netd_native/parallel_lookup_sleep_time" value="2" package="com.google.android.gms" />
+  <setting id="269" name="exo/app_streaming_allowed_components" value="" package="com.google.android.gms" />
+  <setting id="219" name="systemui/Phenotype_flags" value="nas_generate_actions:nas_generate_replies:nas_max_messages_to_extract:nas_max_suggestions:ssin_edit_choices_before_sending:ssin_enabled:ssin_max_num_actions:ssin_max_squeeze_remeasure_attempts:ssin_min_num_system_generated_replies:ssin_requires_targeting_p:ssin_show_in_heads_up" package="com.google.android.gms" defaultValue="nas_generate_actions:nas_generate_replies:nas_max_messages_to_extract:nas_max_suggestions:ssin_edit_choices_before_sending:ssin_enabled:ssin_max_num_actions:ssin_max_squeeze_remeasure_attempts:ssin_min_num_system_generated_replies:ssin_requires_targeting_p:ssin_show_in_heads_up" defaultSysSet="false" tag="null" />
+  <setting id="117" name="device_personalization_services/Captions__enable_punctuations" value="true" package="com.google.android.gms" />
+  <setting id="159" name="netd_native/dns_event_subsample_map" value="default:1 0:100 7:10" package="com.google.android.gms" />
+  <setting id="428" name="netd_native/retransmission_time_interval" value="5000" package="com.google.android.gms" />
+  <setting id="234" name="window_manager_native_boot/_boot_Phenotype_flags" value="" package="com.google.android.gms" defaultValue="" defaultSysSet="false" tag="null" />
+  <setting id="405" name="logcat_manager/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="306" name="appsearch/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="155" name="intelligence_bubbles/Phenotype_flags" value="intelligence_bubbles_webref_superpacks_manifest_url_template:intelligence_bubbles_webref_superpacks_manifest_version" package="com.google.android.gms" defaultValue="intelligence_bubbles_webref_superpacks_manifest_url_template:intelligence_bubbles_webref_superpacks_manifest_version" defaultSysSet="false" tag="null" />
+  <setting id="360" name="jobscheduler/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="131" name="device_personalization_services/Captions__speech_threshold" value="0.2" package="com.google.android.gms" />
+  <setting id="259" name="permissions/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="184" name="privacy/Phenotype_flags" value="location_access_check_enabled:permissions_hub_enabled" package="com.google.android.gms" defaultValue="location_access_check_enabled:permissions_hub_enabled" defaultSysSet="false" tag="null" />
+  <setting id="206" name="systemui/ssin_edit_choices_before_sending" value="false" package="com.google.android.gms" />
+  <setting id="470" name="shared_native/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="390" name="constrain_display_apis/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="494" name="companion/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="133" name="device_personalization_services/Captions__surface_sound_events" value="true" package="com.google.android.gms" />
+  <setting id="412" name="rotation_resolver/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="324" name="launcher/ENABLE_SMARTSPACE_ENHANCED" value="false" package="com.google.android.gms" />
+  <setting id="438" name="connectivity/ip_reachability_ignore_incompleted_ipv6_default_router_version" value="0" package="com.google.android.gms" />
+  <setting id="275" name="exo/app_streaming_task_navigation_blocked_components" value="" package="com.google.android.gms" />
+  <setting id="127" name="device_personalization_services/Captions__model_version_v1" value="20190613" package="com.google.android.gms" />
+  <setting id="84" name="autofill/Phenotype_flags" value="augmented_autofill_mode:smart_suggestion_supported_modes" package="com.google.android.gms" defaultValue="augmented_autofill_mode:smart_suggestion_supported_modes" defaultSysSet="false" tag="null" />
+  <setting id="246" name="statsd_java/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="208" name="systemui/ssin_enabled" value="true" package="com.google.android.gms" />
+  <setting id="225" name="telephony/ramping_ringer_enabled" value="false" package="com.google.android.gms" />
+  <setting id="380" name="media_native/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="296" name="wifi/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="106" name="content_capture/enable_contentcapture" value="false" package="com.google.android.gms" />
+  <setting id="425" name="activity_manager_native_boot/_boot_Phenotype_flags" value="" package="com.google.android.gms" defaultValue="offload_queue_enabled" defaultSysSet="false" tag="null" />
+  <setting id="17" name="game_driver/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="77" name="app_compat/Phenotype_flags" value="hidden_api_access_log_sampling_rate:hidden_api_access_statslog_sampling_rate" package="com.google.android.gms" defaultValue="hidden_api_access_log_sampling_rate:hidden_api_access_statslog_sampling_rate" defaultSysSet="false" tag="null" />
+  <setting id="141" name="device_personalization_services/SmartRecPixelSearch__enable_search_on_files" value="false" package="com.google.android.gms" />
+  <setting id="314" name="adaptive_charging/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="101" name="connectivity/ipclient_parse_netlink_events_version" value="0" package="com.google.android.gms" />
+  <setting id="386" name="latency_tracker/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="498" name="vpn/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="308" name="dropbox/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="174" name="notification_assistant/generate_actions" value="false" package="com.google.android.gms" />
+  <setting id="392" name="vendor_system_native/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="376" name="bluetooth_native/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="145" name="device_personalization_services/VisualCortex__enable" value="true" package="com.google.android.gms" />
+  <setting id="444" name="connectivity/ipclient_multicast_ns_version" value="0" package="com.google.android.gms" />
+  <setting id="49" name="textclassifier/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="364" name="vcn/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="382" name="twoshay_native/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="403" name="location/Phenotype_flags" value="adas_settings_allowlist" package="com.google.android.gms" defaultValue="adas_settings_allowlist" defaultSysSet="false" tag="null" />
+  <setting id="244" name="arc_app_compat/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="342" name="private_compute_services/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="462" name="nearby/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="356" name="lmkd_native/Phenotype_flags" value="" package="com.google.android.gms" />
+  <setting id="496" name="cellular_security/Phenotype_flags" value="" package="com.google.android.gms" />
+</settings>

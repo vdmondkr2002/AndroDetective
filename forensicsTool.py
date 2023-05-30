@@ -6,6 +6,9 @@ from getDumpFIle import get_Dump_File
 
 from scripts.version_info import version
 from scripts.tool_artifacts import *
+ 
+# Custom theme for a more appealing GUI
+sg.theme('DarkAmber')
 
 def ValidateInput(values, window):
     '''Returns tuple (success, extraction_type)'''
@@ -86,13 +89,14 @@ layout = [  [sg.Text('Android Forensics Tool', font=("Helvetica", 22))],
                 ], 
                     title='Select Output Folder:')],
             [sg.Text('Available Modules')],
-            [sg.Button('SELECT ALL'), sg.Button('DESELECT ALL')], 
+            [sg.Button('SELECT ALL',button_color=("white", "green"), size=(15, 2), font=("Helvetica", 12, "bold"),pad=(10, 10)), 
+                sg.Button('DESELECT ALL',button_color=("white", "orange"), size=(10, 2), font=("Helvetica", 12, "bold"),pad=(10, 10))], 
             [sg.Column(mlist, size=(300,310), scrollable=True),  sg.Output(size=(85,20))] ,
             [sg.ProgressBar(max_value=GuiWindow.progress_bar_total, orientation='h', size=(86, 7), key='PROGRESSBAR', bar_color=('DarkGreen', 'White'))],
             [sg.Submit('Process',font=normal_font), sg.Button('Close', font=normal_font)] ]
             
 # Create the Window
-window = sg.Window(f'Forensics Tool version {version}', layout)
+window = sg.Window(f'Forensics Tool version {version}', layout,background_color="lightblue")
 GuiWindow.progress_bar_handle = window['PROGRESSBAR']
 
 

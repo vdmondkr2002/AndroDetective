@@ -1,0 +1,17 @@
+PACKAGE_MANAGER__COMPILER_STATS__1
+com.example.taskmanagercompose
+-base.apk:4796
+com.google.android.networkstack
+-base.apk:1047
+com.example.taskmanagercompose.test
+-base.apk:1932
+com.google.android.captiveportallogin
+-base.apk:868
+com.example.emptyproject
+-base.apk:5386
+com.example.composequadrant.test
+-base.apk:2035
+com.topjohnwu.magisk
+-base.apk:1601
+com.example.composequadrant
+-base.apk:17478

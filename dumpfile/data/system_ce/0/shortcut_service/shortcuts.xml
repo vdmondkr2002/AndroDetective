@@ -1,0 +1,305 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<user locales="en-US" last-app-scan-time2="1685423471807" last-app-scan-fp="google/sdk_gphone_x86/generic_x86:10/QSR1.190920.001/5891938:user/release-keys">
+<launcher value="com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity" />
+<package name="com.google.android.youtube" call-count="0" last-reset="0">
+<package-info version="1419573700" last_udpate_time="1230768000000" shadow="0" allow-backup="0" allow-backup-initialized="0" bk_src_version="-1" bk_src_backup-allowed="0" />
+<shortcut id="trending-shortcut" activity="com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity" title="Trending" titleid="2131953840" titlename="trending" textid="0" dmessageid="0" disabled-reason="0" timestamp="1675854796797" rank="2" flags="420" icon-res="2130838522" icon-resname="drawable/ic_shortcut_trending">
+<intent intent-base="#Intent;action=com.google.android.youtube.action.open.trending;launchFlags=0x1000c000;end">
+<extras>
+<string name="source">shortcut</string>
+</extras>
+</intent>
+</shortcut>
+<shortcut id="search-shortcut" activity="com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity" title="Search" titleid="2131953676" titlename="search" textid="0" dmessageid="0" disabled-reason="0" timestamp="1675854796797" rank="0" flags="420" icon-res="2130838518" icon-resname="drawable/ic_shortcut_search">
+<intent intent-base="#Intent;action=com.google.android.youtube.action.open.search;launchFlags=0x1000c000;end">
+<extras>
+<string name="source">shortcut</string>
+</extras>
+</intent>
+</shortcut>
+<shortcut id="subscriptions-shortcut" activity="com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity" title="Subscriptions" titleid="2131953771" titlename="subscriptions" textid="0" dmessageid="0" disabled-reason="0" timestamp="1675854796797" rank="1" flags="420" icon-res="2130838520" icon-resname="drawable/ic_shortcut_subscriptions">
+<intent intent-base="#Intent;action=com.google.android.youtube.action.open.subscriptions;launchFlags=0x1000c000;end">
+<extras>
+<string name="source">shortcut</string>
+</extras>
+</intent>
+</shortcut>
+</package>
+<package name="com.google.android.googlequicksearchbox" call-count="1" last-reset="1685358741886">
+<package-info version="301225158" last_udpate_time="1675869933987" shadow="0" allow-backup="0" allow-backup-initialized="0" bk_src_version="-1" bk_src_backup-allowed="0" />
+<shortcut id="text_shortcut" activity="com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity" title="Search" titleid="0" textid="0" dmessageid="0" disabled-reason="0" timestamp="1685423518606" rank="0" flags="133" icon-res="2131233067" icon-resname="drawable/ic_text_search_shortcut">
+<intent intent-base="ga:/data?tab_type=2&amp;go_back_to_discover_feed_from_srp=false#Intent;action=android.search.action.GLOBAL_SEARCH;launchFlags=0x10008000;component=com.google.android.googlequicksearchbox/.InternalGoogleAppActivityEntrypoint;end">
+<extras>
+<string name="source">and.gsa.launcher.shortcut.text</string>
+</extras>
+</intent>
+</shortcut>
+<shortcut id="voice_shortcut" activity="com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity" title="Voice search" titleid="0" textid="0" dmessageid="0" disabled-reason="0" timestamp="1685423518606" rank="1" flags="133" icon-res="2131233084" icon-resname="drawable/ic_voice_search_shortcut">
+<intent intent-base="ga:/data?tab_type=2&amp;go_back_to_discover_feed_from_srp=false&amp;ga_query_options=OAFYAw%3D%3D#Intent;action=com.google.android.googlequicksearchbox.action.CLASSIC_GSA_VOICE_SEARCH;launchFlags=0x10008000;component=com.google.android.googlequicksearchbox/.InternalGoogleAppActivityEntrypoint;end">
+<extras>
+<string name="source">and.gsa.launcher.shortcut.voice</string>
+</extras>
+</intent>
+</shortcut>
+</package>
+<package name="com.android.documentsui" call-count="0" last-reset="0">
+<package-info version="29" last_udpate_time="1230768000000" shadow="0" allow-backup="0" allow-backup-initialized="0" bk_src_version="-1" bk_src_backup-allowed="0" />
+<shortcut id="content://com.android.providers.media.documents/root/images_root" activity="com.android.documentsui/com.android.documentsui.LauncherActivity" title="Images" titleid="2131755138" titlename="images_shortcut_label" textid="0" dmessageid="0" disabled-reason="0" timestamp="1675854767712" rank="0" flags="420" icon-res="2131165329" icon-resname="drawable/ic_images_shortcut">
+<intent intent-base="content://com.android.providers.media.documents/root/images_root#Intent;launchFlags=0x1000c000;end" />
+</shortcut>
+</package>
+<package name="com.whatsapp" call-count="1" last-reset="1685358741886">
+<package-info version="230276003" last_udpate_time="1675921670495" shadow="0" allow-backup="0" allow-backup-initialized="0" bk_src_version="-1" bk_src_backup-allowed="0" />
+<shortcut id="open_camera" activity="com.whatsapp/com.whatsapp.Main" title="Camera" titleid="0" textid="0" dmessageid="0" disabled-reason="0" timestamp="1685425338566" rank="0" flags="133" icon-res="2131231902" icon-resname="drawable/ic_shortcut_camera_alt">
+<intent intent-base="#Intent;launchFlags=0x10000000;component=com.whatsapp/.camera.LauncherCameraActivity;end" />
+</shortcut>
+<shortcut id="120363158896644413@g.us" activity="com.whatsapp/com.whatsapp.Main" title="Elon Musk Free Giveaway" titleid="0" textid="0" dmessageid="0" disabled-reason="0" timestamp="1685425338590" rank="1" flags="649" icon-res="0" bitmap-path="/data/system_ce/0/shortcut_service/bitmaps/com.whatsapp/1685425338594.png">
+<categories>
+<string-array name="categories" num="1">
+<item value="com.whatsapp.sharing.category.SHARE_TARGET_DEFAULT" />
+</string-array>
+</categories>
+<intent intent-base="#Intent;launchFlags=0x14000000;component=com.whatsapp/.Conversation;end">
+<extras>
+<int name="mat_entry_point" value="0" />
+<string name="jid">120363158896644413@g.us</string>
+<string name="perf_origin">WaShortcutsHelper</string>
+</extras>
+</intent>
+</shortcut>
+<share-target targetClass="com.whatsapp.contact.picker.ContactPicker">
+<data mimeType="*/*" />
+<category name="com.whatsapp.sharing.category.SHARE_TARGET_DEFAULT" />
+</share-target>
+</package>
+<package name="com.google.android.apps.messaging" call-count="1" last-reset="1685358741886">
+<package-info version="41067270" last_udpate_time="1230768000000" shadow="0" allow-backup="0" allow-backup-initialized="0" bk_src_version="-1" bk_src_backup-allowed="0" />
+<shortcut id="cyOdR2XEL925VsDNmD9Hug" activity="com.google.android.apps.messaging/com.google.android.apps.messaging.ui.ConversationListActivity" title="+91 83560 29542" titleid="0" textid="0" dmessage="This shortcut no longer works because the conversation was deleted" dmessageid="0" disabled-reason="0" timestamp="1685424519060" rank="1" flags="649" icon-res="0" bitmap-path="/data/system_ce/0/shortcut_service/bitmaps/com.google.android.apps.messaging/1685424519092.png">
+<intent intent-base="#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x1000c000;component=com.google.android.apps.messaging/.ui.conversationlist.ConversationListActivity;end" />
+<intent intent-base="#Intent;component=com.google.android.apps.messaging/.ui.conversation.ConversationActivity;end">
+<extras>
+<string name="conversation_id">3</string>
+<boolean name="via_shortcut" value="true" />
+</extras>
+</intent>
+</shortcut>
+<shortcut id="L/AnDjFpLUSpvKTFXdaSIA" activity="com.google.android.apps.messaging/com.google.android.apps.messaging.ui.ConversationListActivity" title="Sagar Mude" titleid="0" textid="0" dmessage="This shortcut no longer works because the conversation was deleted" dmessageid="0" disabled-reason="0" timestamp="1685424519014" rank="0" flags="649" icon-res="0" bitmap-path="/data/system_ce/0/shortcut_service/bitmaps/com.google.android.apps.messaging/1685424519086.png">
+<intent intent-base="#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x1000c000;component=com.google.android.apps.messaging/.ui.conversationlist.ConversationListActivity;end" />
+<intent intent-base="#Intent;component=com.google.android.apps.messaging/.ui.conversation.ConversationActivity;end">
+<extras>
+<string name="conversation_id">1</string>
+<boolean name="via_shortcut" value="true" />
+</extras>
+</intent>
+</shortcut>
+<shortcut id="manifest-shortcut-new_message" activity="com.google.android.apps.messaging/com.google.android.apps.messaging.ui.ConversationListActivity" title="New conversation" titleid="2131887436" titlename="shortcut_new_message_text" text="New conversation" textid="2131887436" textname="shortcut_new_message_text" dmessage="This shortcut no longer works because the conversation was deleted" dmessageid="2131887435" dmessagename="shortcut_disabled_text" disabled-reason="0" timestamp="1675854798599" rank="0" flags="420" icon-res="2130837902" icon-resname="drawable/ic_new_message_shortcut">
+<categories>
+<string-array name="categories" num="2">
+<item value="android.shortcut.media" />
+<item value="android.shortcut.conversation" />
+</string-array>
+</categories>
+<intent intent-base="#Intent;launchFlags=0x1000c000;component=com.google.android.apps.messaging/.ui.conversationlist.ConversationListActivity;end">
+<extras>
+<boolean name="via_shortcut" value="true" />
+</extras>
+</intent>
+<intent intent-base="#Intent;component=com.google.android.apps.messaging/.ui.conversation.ConversationActivity;end">
+<extras>
+<boolean name="via_shortcut" value="true" />
+</extras>
+</intent>
+</shortcut>
+</package>
+<package name="com.android.vending" call-count="0" last-reset="0">
+<package-info version="83591120" last_udpate_time="1685423572932" shadow="0" allow-backup="1" allow-backup-initialized="1" bk_src_version="-1" bk_src_backup-allowed="0" />
+<shortcut id="VIEW_MY_DOWNLOADS" activity="com.android.vending/com.android.vending.AssetBrowserActivity" title="My apps" titleid="2132019115" titlename="0_resource_name_obfuscated" textid="0" dmessageid="0" disabled-reason="0" timestamp="1685423605097" rank="0" flags="420" icon-res="2131231569" icon-resname="drawable/0_resource_name_obfuscated">
+<intent intent-base="#Intent;action=com.google.android.finsky.VIEW_MY_DOWNLOADS;launchFlags=0x1000c000;end" />
+</shortcut>
+</package>
+<package name="com.android.contacts" call-count="0" last-reset="0">
+<package-info version="10731" last_udpate_time="1230768000000" shadow="0" allow-backup="0" allow-backup-initialized="0" bk_src_version="-1" bk_src_backup-allowed="0" />
+<shortcut id="shortcut-add-contact" activity="com.android.contacts/com.android.contacts.activities.PeopleActivity" title="Add contact" titleid="2131755526" titlename="shortcut_add_contact" textid="0" dmessageid="0" disabled-reason="0" timestamp="1675854767745" rank="0" flags="420" icon-res="2131230839" icon-resname="drawable/ic_add_contact_shortcut">
+<intent intent-base="content://com.android.contacts/contacts#Intent;action=android.intent.action.INSERT;launchFlags=0x1000c000;component=com.android.contacts/.activities.ContactEditorActivity;end" />
+</shortcut>
+</package>
+<package name="com.google.android.deskclock" call-count="3" last-reset="1685358741886">
+<package-info version="74100498" last_udpate_time="1685373166811" shadow="0" allow-backup="0" allow-backup-initialized="0" bk_src_version="-1" bk_src_backup-allowed="0" />
+<shortcut id="Alarm_Create" activity="com.google.android.deskclock/com.android.deskclock.DeskClock" title="New alarm" titleid="0" text="Create new alarm" textid="0" dmessageid="0" disabled-reason="0" timestamp="1685423514039" rank="0" flags="133" icon-res="2131231652" icon-resname="drawable/shortcut_new_alarm">
+<intent intent-base="#Intent;action=android.intent.action.SET_ALARM;launchFlags=0x10000000;component=com.google.android.deskclock/com.android.deskclock.HandleSetApiCalls;end">
+<extras>
+<string name="com.android.deskclock.extra.EVENT_LABEL">Shortcut</string>
+</extras>
+</intent>
+</shortcut>
+<shortcut id="Stopwatch" activity="com.google.android.deskclock/com.android.deskclock.DeskClock" title="Start" titleid="0" text="Start stopwatch" textid="0" dmessageid="0" disabled-reason="0" timestamp="1685423514040" rank="2" flags="133" icon-res="2131231655" icon-resname="drawable/shortcut_stopwatch">
+<intent intent-base="#Intent;action=com.android.deskclock.action.START_STOPWATCH;launchFlags=0x10000000;component=com.google.android.deskclock/com.android.deskclock.HandleShortcuts;end" />
+</shortcut>
+<shortcut id="Screensaver_Show" activity="com.google.android.deskclock/com.android.deskclock.DeskClock" title="Screen saver" titleid="0" text="Start screen saver" textid="0" dmessageid="0" disabled-reason="0" timestamp="1685423514040" rank="3" flags="133" icon-res="2131231654" icon-resname="drawable/shortcut_screensaver">
+<intent intent-base="#Intent;action=android.intent.action.MAIN;launchFlags=0x10000000;component=com.google.android.deskclock/com.android.deskclock.ScreensaverActivity;end">
+<extras>
+<string name="com.android.deskclock.extra.EVENT_LABEL">Shortcut</string>
+</extras>
+</intent>
+</shortcut>
+<shortcut id="Timer_Create" activity="com.google.android.deskclock/com.android.deskclock.DeskClock" title="New timer" titleid="0" text="Create new timer" textid="0" dmessageid="0" disabled-reason="0" timestamp="1685423514039" rank="1" flags="133" icon-res="2131231653" icon-resname="drawable/shortcut_new_timer">
+<intent intent-base="#Intent;action=android.intent.action.SET_TIMER;launchFlags=0x10000000;component=com.google.android.deskclock/com.android.deskclock.HandleSetApiCalls;end">
+<extras>
+<string name="com.android.deskclock.extra.EVENT_LABEL">Shortcut</string>
+</extras>
+</intent>
+</shortcut>
+</package>
+<package name="com.google.android.gm" call-count="1" last-reset="1685358741886">
+<package-info version="61499782" last_udpate_time="1230768000000" shadow="0" allow-backup="0" allow-backup-initialized="0" bk_src_version="-1" bk_src_backup-allowed="0" />
+<shortcut id="manifest_compose_shortcut" activity="com.google.android.gm/com.google.android.gm.ConversationListActivityGmail" title="Compose" titleid="2131886653" titlename="compose_title" textid="0" dmessageid="0" disabled-reason="0" timestamp="1675854838427" rank="0" flags="420" icon-res="2130837660" icon-resname="drawable/compose_launcher_shortcut_icon">
+<intent intent-base="#Intent;action=com.android.mail.intentutils.action.LAUNCH_COMPOSE;launchFlags=0x1000c000;component=com.google.android.gm/.ComposeActivityGmail;end">
+<extras>
+<boolean name="from-launcher-shortcut" value="true" />
+</extras>
+</intent>
+</shortcut>
+<shortcut id="bookxchanger7@gmail.com" activity="com.google.android.gm/com.google.android.gm.ConversationListActivityGmail" title="bookxchanger7@gmail.com" titleid="0" text="bookxchanger7@gmail.com" textid="0" dmessageid="0" disabled-reason="0" timestamp="1685374348664" rank="0" flags="137" icon-res="0" bitmap-path="/data/system_ce/0/shortcut_service/bitmaps/com.google.android.gm/1685374348688.png">
+<categories>
+<string-array name="categories" num="1">
+<item value="account-launcher" />
+</string-array>
+</categories>
+<intent intent-base="content://com.google.android.gm.sapi/bookxchanger7@gmail.com/label/%5Esq_ig_i_personal?account_type=com.google#Intent;type=application/gmail-ls;launchFlags=0x10004000;package=com.google.android.gm;end">
+<extras>
+<string name="mail_account">{&quot;name&quot;:&quot;bookxchanger7@gmail.com&quot;,&quot;type&quot;:&quot;com.google&quot;,&quot;accountManagerName&quot;:&quot;bookxchanger7@gmail.com&quot;,&quot;accountId&quot;:&quot;bookxchanger7@gmail.com&quot;,&quot;providerVersion&quot;:0,&quot;accountUri&quot;:&quot;content:\/\/com.google.android.gm.sapi\/bookxchanger7@gmail.com\/account?account_type=com.google&quot;,&quot;capabilities&quot;:292810129023,&quot;folderListUri&quot;:&quot;content:\/\/com.google.android.gm.sapi\/bookxchanger7@gmail.com\/labels?account_type=com.google&quot;,&quot;fullFolderListUri&quot;:&quot;content:\/\/com.google.android.gm.sapi\/bookxchanger7@gmail.com\/labels?account_type=com.google&quot;,&quot;allFolderListUri&quot;:&quot;content:\/\/com.google.android.gm.sapi\/bookxchanger7@gmail.com\/labels?account_type=com.google&quot;,&quot;searchUri&quot;:&quot;content:\/\/com.google.android.gm.sapi\/bookxchanger7@gmail.com\/search?account_type=com.google&quot;,&quot;searchMessageGenericUri&quot;:&quot;&quot;,&quot;accountFromAddresses&quot;:&quot;[]&quot;,&quot;expungeMessageUri&quot;:&quot;content:\/\/com.google.android.gm.sapi\/bookxchanger7@gmail.com\/expungeMessage?account_type=com.google&quot;,&quot;undoUri&quot;:&quot;content:\/\/com.google.android.gm.sapi\/bookxchanger7@gmail.com\/undo?account_type=com.google&quot;,&quot;accountSettingsIntentUri&quot;:&quot;setting:\/\/gmail\/?account=bookxchanger7%40gmail.com&quot;,&quot;helpIntentUri&quot;:&quot;https:\/\/support.google.com\/mail\/topic\/6029993?hl=en&quot;,&quot;sendFeedbackIntentUri&quot;:&quot;setting:\/\/gmail\/?account=bookxchanger7%40gmail.com&amp;reporting_problem=true&quot;,&quot;reauthenticationUri&quot;:&quot;auth:\/\/gmail\/?account=bookxchanger7%40gmail.com&quot;,&quot;syncStatus&quot;:0,&quot;composeUri&quot;:&quot;gmail2from:\/\/gmail-ls\/account\/bookxchanger7@gmail.com&quot;,&quot;mimeType&quot;:&quot;application\/gmail-ls&quot;,&quot;recentFolderListUri&quot;:&quot;content:\/\/com.google.android.gm.sapi\/bookxchanger7@gmail.com\/recentlabels?account_type=com.google&quot;,&quot;defaultRecentFolderListUri&quot;:&quot;&quot;,&quot;manualSyncUri&quot;:&quot;content:\/\/com.google.android.gm.sapi\/bookxchanger7@gmail.com\/manual_sync?account_type=com.google&quot;,&quot;viewProxyUri&quot;:&quot;content:\/\/gmail\/proxy&quot;,&quot;accountCookieUri&quot;:&quot;&quot;,&quot;accountOAuthTokenUri&quot;:&quot;content:\/\/com.google.android.gm.sapi\/bookxchanger7@gmail.com\/oauthToken?account_type=com.google&quot;,&quot;updateSettingsUri&quot;:&quot;&quot;,&quot;enableMessageTransforms&quot;:1,&quot;syncAuthority&quot;:&quot;gmail-ls&quot;,&quot;quickResponseUri&quot;:&quot;&quot;,&quot;settingsFragmentClass&quot;:&quot;com.google.android.gm.preference.AccountPreferenceFragment&quot;,&quot;securityHold&quot;:0,&quot;accountSecurityUri&quot;:&quot;&quot;,&quot;settingsSnapshotUri&quot;:&quot;&quot;,&quot;vacationResponderSettingsUri&quot;:&quot;&quot;,&quot;driveUri&quot;:&quot;&quot;,&quot;drawerAddress&quot;:&quot;&quot;,&quot;providerHostname&quot;:&quot;mail.google.com&quot;,&quot;providerPathname&quot;:&quot;\/mail\/&quot;,&quot;recipientSecurityCheckUri&quot;:&quot;content:\/\/com.google.android.gm.sapi\/bookxchanger7@gmail.com\/recipientSecurityCheck?account_type=com.google&quot;,&quot;settings&quot;:{&quot;auto_advance&quot;:0,&quot;reply_behavior&quot;:2,&quot;confirm_delete&quot;:false,&quot;confirm_archive&quot;:false,&quot;confirm_send&quot;:false,&quot;default_inbox&quot;:&quot;content:\/\/com.google.android.gm.sapi\/bookxchanger7@gmail.com\/label\/%5Esq_ig_i_personal?account_type=com.google&quot;,&quot;force_reply_from_default&quot;:true,&quot;max_attachment_size&quot;:26214400,&quot;swipe&quot;:0,&quot;importance_markers_enabled&quot;:false,&quot;show_chevrons_enabled&quot;:false,&quot;setup_intent_uri&quot;:&quot;&quot;,&quot;conversation_view_mode&quot;:0,&quot;move_to_inbox&quot;:&quot;content:\/\/com.google.android.gm.sapi\/bookxchanger7@gmail.com\/label\/%5Esq_ig_i_personal?account_type=com.google&quot;,&quot;show_images&quot;:0,&quot;welcome_tour_shown_version&quot;:-1,&quot;temp_tls_ii&quot;:true,&quot;temp_tls_oi&quot;:true,&quot;temp_fz_ii&quot;:true,&quot;temp_fz_oi&quot;:false,&quot;temp_ood&quot;:false,&quot;sync_interval&quot;:-1},&quot;protocolVersion&quot;:&quot;&quot;}</string>
+<boolean name="from-account-launcher-shortcut" value="true" />
+</extras>
+</intent>
+</shortcut>
+</package>
+<package name="com.google.android.apps.docs" call-count="0" last-reset="0">
+<package-info version="192120470" last_udpate_time="1230768000000" shadow="0" allow-backup="0" allow-backup-initialized="0" bk_src_version="-1" bk_src_backup-allowed="0" />
+<shortcut id="launcher_shortcut_search" activity="com.google.android.apps.docs/com.google.android.apps.docs.app.NewMainProxyActivity" title="Search" titleid="2131952664" titlename="launcher_search_short" text="Search" textid="2131952664" textname="launcher_search_short" dmessageid="0" disabled-reason="0" timestamp="1675854767747" rank="2" flags="420" icon-res="2130837978" icon-resname="drawable/launcher_shortcut_search">
+<intent intent-base="#Intent;action=com.google.android.apps.docs.actions.SEARCH_SHORTCUT_ACTION;launchFlags=0x1000c000;component=com.google.android.apps.docs/.app.NewMainProxyActivity;end" />
+</shortcut>
+<shortcut id="launcher_shortcut_upload" activity="com.google.android.apps.docs/com.google.android.apps.docs.app.NewMainProxyActivity" title="Upload" titleid="2131952665" titlename="launcher_upload_short" text="Upload" textid="2131952665" textname="launcher_upload_short" dmessageid="0" disabled-reason="0" timestamp="1675854767747" rank="0" flags="420" icon-res="2130837980" icon-resname="drawable/launcher_shortcut_upload">
+<intent intent-base="*#Intent;action=com.google.android.apps.docs.CreateNewDocument.UPLOAD_FILE;launchFlags=0x1000c000;component=com.google.android.apps.docs/.drive.filepicker.PickFilesToUploadActivity;end" />
+</shortcut>
+<shortcut id="launcher_shortcut_scan" activity="com.google.android.apps.docs/com.google.android.apps.docs.app.NewMainProxyActivity" title="Scan" titleid="2131952663" titlename="launcher_scan_short" text="Scan" textid="2131952663" textname="launcher_scan_short" dmessageid="0" disabled-reason="0" timestamp="1675854767747" rank="1" flags="420" icon-res="2130837976" icon-resname="drawable/launcher_shortcut_scan">
+<intent intent-base="http://drive.google.com#Intent;action=android.intent.action.SEND;launchFlags=0x1000c000;component=com.google.android.apps.docs/.drive.capture.DocScannerActivity;end" />
+</shortcut>
+</package>
+<package name="com.google.android.apps.maps" call-count="0" last-reset="0">
+<package-info version="1016701040" last_udpate_time="1230768000000" shadow="0" allow-backup="0" allow-backup-initialized="0" bk_src_version="-1" bk_src_backup-allowed="0" />
+<shortcut id="manifest_home" activity="com.google.android.apps.maps/com.google.android.maps.MapsActivity" title="Home" titleid="2132279298" titlename="HOME_LOCATION" textid="0" dmessageid="0" disabled-reason="0" timestamp="1675854799328" rank="0" flags="420" icon-res="2131231655" icon-resname="drawable/ic_qu_home_launcher">
+<intent intent-base="#Intent;launchFlags=0x1000c000;component=com.google.android.apps.maps/.LauncherShortcutActivity;end">
+<extras>
+<boolean name="extra_destination_home_key" value="true" />
+</extras>
+</intent>
+</shortcut>
+<shortcut id="manifest_work" activity="com.google.android.apps.maps/com.google.android.maps.MapsActivity" title="Work" titleid="2132279305" titlename="WORK_LOCATION" textid="0" dmessageid="0" disabled-reason="0" timestamp="1675854799328" rank="1" flags="420" icon-res="2131231813" icon-resname="drawable/ic_qu_work_launcher">
+<intent intent-base="#Intent;launchFlags=0x1000c000;component=com.google.android.apps.maps/.LauncherShortcutActivity;end">
+<extras>
+<boolean name="extra_destination_work_key" value="true" />
+</extras>
+</intent>
+</shortcut>
+</package>
+<package name="com.android.chrome" call-count="1" last-reset="1685358741886">
+<package-info version="567216236" last_udpate_time="1685424290200" shadow="0" allow-backup="1" allow-backup-initialized="1" bk_src_version="-1" bk_src_backup-allowed="0" />
+<shortcut id="new-tab-shortcut" activity="com.android.chrome/com.google.android.apps.chrome.Main" title="New tab" titleid="2132018829" titlename="0_resource_name_obfuscated" textid="0" dmessageid="0" disabled-reason="0" timestamp="1685424300729" rank="0" flags="420" icon-res="2131297504" icon-resname="drawable/0_resource_name_obfuscated">
+<intent intent-base="#Intent;action=chromium.shortcut.action.OPEN_NEW_TAB;launchFlags=0x1000c000;component=com.android.chrome/org.chromium.chrome.browser.LauncherShortcutActivity;end" />
+</shortcut>
+<shortcut id="dynamic-new-incognito-tab-shortcut" activity="com.android.chrome/com.google.android.apps.chrome.Main" title="Incognito Tab" titleid="0" text="New Incognito tab" textid="0" dmessageid="0" disabled-reason="0" timestamp="1685424300938" rank="0" flags="133" icon-res="2131297503" icon-resname="drawable/shortcut_incognito">
+<intent intent-base="#Intent;action=chromium.shortcut.action.OPEN_NEW_INCOGNITO_TAB;package=com.android.chrome;component=com.android.chrome/org.chromium.chrome.browser.LauncherShortcutActivity;end" />
+</shortcut>
+</package>
+<package name="com.topjohnwu.magisk" call-count="1" last-reset="1675854741886">
+<package-info version="25200" last_udpate_time="1675855200660" shadow="0" allow-backup="0" allow-backup-initialized="0" bk_src_version="-1" bk_src_backup-allowed="0" />
+<shortcut id="superuser" activity="com.topjohnwu.magisk/com.topjohnwu.magisk.ui.MainActivity" title="Superuser" titleid="0" textid="0" dmessageid="0" disabled-reason="0" timestamp="1675855286773" rank="0" flags="649" icon-res="0" bitmap-path="/data/system_ce/0/shortcut_service/bitmaps/com.topjohnwu.magisk/1675855286803.png">
+<intent intent-base="#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=com.topjohnwu.magisk;component=com.topjohnwu.magisk/.ui.MainActivity;end">
+<extras>
+<string name="section">superuser</string>
+</extras>
+</intent>
+</shortcut>
+<shortcut id="modules" activity="com.topjohnwu.magisk/com.topjohnwu.magisk.ui.MainActivity" title="Modules" titleid="0" textid="0" dmessageid="0" disabled-reason="0" timestamp="1675855286790" rank="1" flags="649" icon-res="0" bitmap-path="/data/system_ce/0/shortcut_service/bitmaps/com.topjohnwu.magisk/1675855286815.png">
+<intent intent-base="#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=com.topjohnwu.magisk;component=com.topjohnwu.magisk/.ui.MainActivity;end">
+<extras>
+<string name="section">modules</string>
+</extras>
+</intent>
+</shortcut>
+</package>
+<package name="com.google.android.calendar" call-count="0" last-reset="0">
+<package-info version="2016205415" last_udpate_time="1230768000000" shadow="0" allow-backup="0" allow-backup-initialized="0" bk_src_version="-1" bk_src_backup-allowed="0" />
+<shortcut id="launcher_shortcuts_shortcut_new_event" activity="com.google.android.calendar/com.android.calendar.AllInOneActivity" title="New event" titleid="2131952389" titlename="launcher_shortcut_event" text="New event" textid="2131952390" textname="launcher_shortcut_event_long" dmessageid="0" disabled-reason="0" timestamp="1675854831273" rank="0" flags="420" icon-res="2131231062" icon-resname="drawable/launcher_shortcut_new_event">
+<intent intent-base="#Intent;action=com.google.android.calendar.EVENT_INSERT;launchFlags=0x1000c000;component=com.google.android.calendar/com.android.calendar.event.LaunchInfoActivity;end" />
+</shortcut>
+<shortcut id="launcher_shortcuts_shortcut_new_reminder" activity="com.google.android.calendar/com.android.calendar.AllInOneActivity" title="New reminder" titleid="2131952391" titlename="launcher_shortcut_reminder" text="New reminder" textid="2131952392" textname="launcher_shortcut_reminder_long" dmessageid="0" disabled-reason="0" timestamp="1675854831273" rank="1" flags="420" icon-res="2131231063" icon-resname="drawable/launcher_shortcut_new_reminder">
+<intent intent-base="#Intent;action=com.google.android.calendar.REMINDER_INSERT;launchFlags=0x1000c000;component=com.google.android.calendar/com.android.calendar.event.LaunchInfoActivity;end" />
+</shortcut>
+</package>
+<package name="com.android.settings" call-count="1" last-reset="1675854741886">
+<package-info version="29" last_udpate_time="1230768000000" shadow="0" allow-backup="0" allow-backup-initialized="0" bk_src_version="-1" bk_src_backup-allowed="0" />
+<shortcut id="manifest-shortcut-wifi" activity="com.android.settings/com.android.settings.Settings" title="Wi‑Fi" titleid="2131890533" titlename="wifi_settings" textid="0" dmessageid="0" disabled-reason="0" timestamp="1684992610214" rank="0" flags="420" icon-res="2131231303" icon-resname="drawable/ic_shortcut_wireless">
+<intent intent-base="#Intent;action=android.settings.WIFI_SETTINGS;launchFlags=0x1000c000;end" />
+</shortcut>
+<shortcut id="manifest-shortcut-battery" activity="com.android.settings/com.android.settings.Settings" title="Battery" titleid="2131888850" titlename="power_usage_summary_title" textid="0" dmessageid="0" disabled-reason="0" timestamp="1684992610214" rank="2" flags="420" icon-res="2131231301" icon-resname="drawable/ic_shortcut_battery">
+<intent intent-base="#Intent;action=android.intent.action.POWER_USAGE_SUMMARY;launchFlags=0x1000c000;end" />
+</shortcut>
+<shortcut id="manifest-shortcut-data-usage" activity="com.android.settings/com.android.settings.Settings" title="Data usage" titleid="2131887321" titlename="data_usage_summary_title" textid="0" dmessageid="0" disabled-reason="0" timestamp="1684992610214" rank="1" flags="420" icon-res="2131231302" icon-resname="drawable/ic_shortcut_data_usage">
+<intent intent-base="#Intent;action=android.intent.action.MAIN;launchFlags=0x1000c000;component=com.android.settings/.Settings%24DataUsageSummaryActivity;end" />
+</shortcut>
+</package>
+<package name="com.microsoft.teams" call-count="1" last-reset="1685358741886">
+<package-info version="2023012722" last_udpate_time="1675921984961" shadow="0" allow-backup="0" allow-backup-initialized="0" bk_src_version="-1" bk_src_backup-allowed="0" />
+<shortcut id="search" activity="com.microsoft.teams/com.microsoft.skype.teams.Launcher" title="Search" titleid="0" text="Search" textid="0" dmessageid="0" disabled-reason="0" timestamp="1685423684953" rank="0" flags="133" icon-res="2131233880" icon-resname="drawable/icn_shortcut_search">
+<categories>
+<string-array name="categories" num="1">
+<item value="action_shortcut_category" />
+</string-array>
+</categories>
+<intent intent-base="#Intent;action=com.microsoft.skype.teams.views.shortcuts.SEARCH;component=com.microsoft.teams/com.microsoft.skype.teams.views.activities.SplashActivity;end" />
+</shortcut>
+<shortcut id="user_tenant_hash=-1318426431;thread_id=19:uni01_itr5tegoyzpcvmbf33ayebwgnubaxwpymrfjzqjgc6brwaua644a@thread.v2;chat_type=user" activity="com.microsoft.teams/com.microsoft.skype.teams.Launcher" title="Unknown User" titleid="0" textid="0" dmessageid="0" disabled-reason="0" timestamp="1685423997826" rank="2" flags="137" icon-res="0" bitmap-path="/data/system_ce/0/shortcut_service/bitmaps/com.microsoft.teams/1685423997817.png">
+<categories>
+<string-array name="categories" num="1">
+<item value="com.microsoft.skype.teams.views.activities.SHARE_TARGET" />
+</string-array>
+</categories>
+<person name="Unknown User" key="19:uni01_itr5tegoyzpcvmbf33ayebwgnubaxwpymrfjzqjgc6brwaua644a@thread.v2" is-bot="0" is-important="1" />
+<intent intent-base="#Intent;action=com.microsoft.skype.teams.views.shortcuts.RECENT_CHAT;launchFlags=0x8000;component=com.microsoft.teams/com.microsoft.skype.teams.views.activities.SplashActivity;end">
+<extras>
+<string name="chat_type=">user</string>
+<string name="thread_id=">19:uni01_itr5tegoyzpcvmbf33ayebwgnubaxwpymrfjzqjgc6brwaua644a@thread.v2</string>
+<string name="user_tenant_hash=">-1318426431</string>
+</extras>
+</intent>
+</shortcut>
+<shortcut id="user_tenant_hash=-1318426431;thread_id=19:uni01_twcmyvex4wkqprwohpljbhkjbppwtnvbdprzcgzjxhnvodjlw4ua@thread.v2;chat_type=user" activity="com.microsoft.teams/com.microsoft.skype.teams.Launcher" title="SAGAR MUDE" titleid="0" textid="0" dmessageid="0" disabled-reason="0" timestamp="1685423997826" rank="3" flags="137" icon-res="0" bitmap-path="/data/system_ce/0/shortcut_service/bitmaps/com.microsoft.teams/1685423997822.png">
+<categories>
+<string-array name="categories" num="1">
+<item value="com.microsoft.skype.teams.views.activities.SHARE_TARGET" />
+</string-array>
+</categories>
+<person name="SAGAR MUDE" key="19:uni01_twcmyvex4wkqprwohpljbhkjbppwtnvbdprzcgzjxhnvodjlw4ua@thread.v2" is-bot="0" is-important="1" />
+<intent intent-base="#Intent;action=com.microsoft.skype.teams.views.shortcuts.RECENT_CHAT;launchFlags=0x8000;component=com.microsoft.teams/com.microsoft.skype.teams.views.activities.SplashActivity;end">
+<extras>
+<string name="chat_type=">user</string>
+<string name="thread_id=">19:uni01_twcmyvex4wkqprwohpljbhkjbppwtnvbdprzcgzjxhnvodjlw4ua@thread.v2</string>
+<string name="user_tenant_hash=">-1318426431</string>
+</extras>
+</intent>
+</shortcut>
+<shortcut id="new_chat" activity="com.microsoft.teams/com.microsoft.skype.teams.Launcher" title="New chat" titleid="0" text="New chat" textid="0" dmessageid="0" disabled-reason="0" timestamp="1685423684953" rank="1" flags="133" icon-res="2131233879" icon-resname="drawable/icn_shortcut_new_chat">
+<categories>
+<string-array name="categories" num="1">
+<item value="action_shortcut_category" />
+</string-array>
+</categories>
+<intent intent-base="#Intent;action=com.microsoft.skype.teams.views.shortcuts.NEW_CHAT;component=com.microsoft.teams/com.microsoft.skype.teams.views.activities.SplashActivity;end" />
+</shortcut>
+<share-target targetClass="com.microsoft.skype.teams.views.activities.SplashActivity">
+<data mimeType="*/*" />
+<category name="com.microsoft.skype.teams.views.activities.SHARE_TARGET" />
+</share-target>
+</package>
+</user>

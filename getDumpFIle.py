@@ -1,4 +1,3 @@
-
 import os
 import re
 from ppadb.client import Client as AdbClient
@@ -13,23 +12,24 @@ list_file = [
     "/data/data/com.android.providers.contacts/databases/",
     "/data/data/com.google.android.apps.messaging/databases/",
     "/data/data/misc/bootstat/",
-    "/data/system/usagestats/0/version",
+    "/data/system/usagestats/0/",
     "/data/system_ce/0/",
     "/data/misc/bluedroid/",
-    "/data/system/build.prop",
+    # "/data/system/build.prop",
+    "/data/system/",
     "/data/user_de/0/com.android.providers.telephony/databases/",
     "/data/data/com.google.android.keep/databases/",
     "/data/data/com.google.android.apps.nexuslauncher/databases/",
-    "/data/system/packages.list",
-    "/data/system/packages.xml",
+    # "/data/system/packages.list",
+    # "/data/system/packages.xml",
     "/data/misc/bootstat/",
     "/data/system_ce/",
     "/data/data/com.microsoft.teams/databases/",
     "/data/data/com.whatsapp/databases/",
     "/data/data/com.whatsapp/shared_prefs/",
+    "/data/data/com.whatsapp/files",
     "/data/misc/wifi/",
-    "/data/data/com.google.android.gm/databases/",
-    "/data/data/com.google.android.gm/shared_prefs/"
+    "/data/data/com.google.android.gm/"
 ]
 
 
@@ -52,11 +52,12 @@ def create_directory(device, path):
 def copy_files(device, input_path, output_path):
     op = output_path + input_path
     input_path = input_path + "*"
-    print(input_path, op)
-    print(f"su -c cp -R {input_path} {op} \n")
+    # print(input_path, op)
+    # print(f"su -c cp -R {input_path} {op} \n")
 
     create_directory(device, op)
     device.shell(f"su -c cp -R {input_path} {op} ")
+
 
 def rename_folders(device, folder_path):
     # List the contents of the current folder
@@ -69,7 +70,6 @@ def rename_folders(device, folder_path):
 
         for item in contents:
             item_path = f"{folder_path}/{item}"
-
             # print("item -", item, type(item), bool(item))
             # if not bool(item):
             #     return
@@ -77,13 +77,12 @@ def rename_folders(device, folder_path):
 
             # Check if the item is a folder
             if device.shell(f"test -d {item_path} && echo 'true'").strip() == "true":
-                print("item -", item, type(item), bool(item))
+                # print("item -", item, type(item), bool(item))
                 if bool(item):
                     rename_folders(device, item_path)
                 # Rename the folder if it contains ":"
                 if ":" in item:
                     new_item = item.replace(":", "_")
-                    new_item = new_item.replace("@","_")
                     new_item_path = f"{folder_path}/{new_item}"
 
                     # Rename the folder
@@ -99,19 +98,20 @@ def rename_folders(device, folder_path):
                 # Rename the symbolic link if it contains ":"
                 if ":" in target_path:
                     new_target = target_path.replace(":", "_")
-                    new_target = new_target.replace("@","_")
+
                     # Update the target of the symbolic link
                     device.shell(f"ln -sf {new_target} {item_path}")
 
             elif device.shell(f"test -f {item_path} && echo 'true'").strip() == "true":
                 # Rename the file if it contains ":"
-                if ":" in item or "@" in item:
+                if ":" in item:
                     new_item = item.replace(":", "_")
-                    new_item = new_item.replace("@", "_")
+                    # new_item = new_item.replace("@", "_")
                     new_item_path = f"{folder_path}/{new_item}"
 
                     # Rename the file
                     device.shell(f"mv {item_path} {new_item_path}")
+
 
 
 def get_Dump_File():
@@ -128,7 +128,7 @@ def get_Dump_File():
         except:
             print("Error in ", input_path)
 
-    # rename_folders(device, "/storage/emulated/0/nnn_dumpfile/")
+    rename_folders(device, "/storage/emulated/0/dumpfile/data/data/com.google.android.gm/")
     subprocess.run(["adb", "pull", "/storage/emulated/0/dumpfile", "."])
 
     return  "dumpfile"

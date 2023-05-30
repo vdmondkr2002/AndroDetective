@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<accounts version="3" nextAuthorityId="38" offsetInSeconds="79050">
+    <listenForTickles user="0" enabled="true" />
+    <authority id="19" user="0" enabled="true" account="WhatsApp" type="com.whatsapp" authority="com.android.contacts" syncable="1" />
+    <authority id="20" user="0" enabled="true" account="bookxchanger7@gmail.com" type="com.google" authority="com.google.android.gms.chromesync" syncable="1" />
+    <authority id="21" user="0" enabled="false" account="bookxchanger7@gmail.com" type="com.google" authority="com.google.android.gms.plus.action" syncable="1" />
+    <authority id="22" user="0" enabled="true" account="bookxchanger7@gmail.com" type="com.google" authority="com.android.contacts" syncable="1" />
+    <authority id="23" user="0" enabled="false" account="bookxchanger7@gmail.com" type="com.google" authority="com.google.android.gms.people" syncable="-1" />
+    <authority id="24" user="0" enabled="true" account="bookxchanger7@gmail.com" type="com.google" authority="com.google.android.gms.reminders" syncable="1" />
+    <authority id="25" user="0" enabled="true" account="bookxchanger7@gmail.com" type="com.google" authority="com.google.android.location.reporting" syncable="1" />
+    <authority id="26" user="0" enabled="true" account="bookxchanger7@gmail.com" type="com.google" authority="subscribedfeeds" syncable="1" />
+    <authority id="27" user="0" enabled="false" account="bookxchanger7@gmail.com" type="com.google" authority="com.android.chrome" syncable="0" />
+    <authority id="28" user="0" enabled="false" account="bookxchanger7@gmail.com" type="com.google" authority="com.google.android.gms.games" syncable="-1" />
+    <authority id="29" user="0" enabled="true" account="bookxchanger7@gmail.com" type="com.google" authority="gmail-ls" syncable="1" />
+    <authority id="30" user="0" enabled="false" account="bookxchanger7@gmail.com" type="com.google" authority="com.google.android.gms.fitness" syncable="-1" />
+    <authority id="31" user="0" enabled="false" account="bookxchanger7@gmail.com" type="com.google" authority="com.google.android.gms.games.background" syncable="-1" />
+    <authority id="32" user="0" enabled="false" account="bookxchanger7@gmail.com" type="com.google" authority="com.google.android.gms.drive.sync" syncable="-1" />
+    <authority id="33" user="0" enabled="false" account="bookxchanger7@gmail.com" type="com.google" authority="com.google.android.gms.subscribedfeeds" syncable="1" />
+    <authority id="34" user="0" enabled="true" account="bookxchanger7@gmail.com" type="com.google" authority="com.android.calendar" syncable="1" />
+    <authority id="35" user="0" enabled="true" account="bookxchanger7@gmail.com" type="com.google" authority="com.google.android.apps.docs" syncable="1" />
+    <authority id="36" user="0" enabled="false" account="bookxchanger7@gmail.com" type="com.google" authority="com.google.android.music.MusicContent" syncable="0" />
+    <authority id="37" user="0" enabled="false" account="bookxchanger7@gmail.com" type="com.google" authority="com.google.android.videos.sync" syncable="1" />
+</accounts>

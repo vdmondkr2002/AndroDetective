@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="sync-client-config">bigtop-android</string>
+    <string name="sync-client-id">3465871141561738843</string>
+    <int name="days-to-sync" value="30" />
+    <string name="notification-settings">(notification_level=all)(^sq_ig_i_personal=enabled)(^sq_ig_i_social=disabled)(^sq_ig_i_promo=disabled)(^t=disabled)(^t_z=disabled)(^io_im=disabled)(^f=disabled)(^scheduled=disabled)(OUTBOX=disabled)(^to_t=disabled)(^r=disabled)(^all=disabled)(^s=disabled)(^k=disabled)</string>
+    <string name="inbox-config">inbox_type=SECTIONED_INBOX inbox_section_types=SECTIONED_INBOX_PRIMARY,SECTIONED_INBOX_SOCIAL,SECTIONED_INBOX_PROMOS</string>
+    <boolean name="initialized" value="false" />
+    <string name="label-sync-config">in-duration=[^f, ^sq_ig_i_personal, ^sq_ig_i_promo, ^sq_ig_i_social] unlimited-duration=[]</string>
+</map>
