@@ -78,12 +78,14 @@ def get_calllog(files_found, report_folder, seeker, wrap_text):
             response = requests.get(api)
 
             response_json = json.loads(response.content)
+            logfunc(str(response_json))
             carrier = response_json.get('carrier', "")
             region = response_json.get('region', "")
             fraud_score = response_json.get('fraud_score', "")
+            
             malicious = False
-            if fraud_score>30:
-                malicious = True
+            # if fraud_score>30:
+            #     malicious = True
 
             data_list.append((row[0], row[1], row[2], call_type_html, str(row[4]), str(row[10]), carrier, region, malicious))
 

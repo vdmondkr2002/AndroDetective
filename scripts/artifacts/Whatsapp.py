@@ -1,7 +1,12 @@
 import sqlite3
 import datetime
 import xmltodict
+import urllib.parse
+import requests
+import json
+import re
 
+from scripts.artifacts.api_key import key
 from scripts.artifact_report import ArtifactHtmlReport
 from scripts.funcs import logfunc, tsv, timeline, is_platform_windows, open_sqlite_db_readonly,does_column_exist_in_db
 
@@ -117,66 +122,6 @@ def get_Whatsapp(files_found, report_folder, seeker, wrap_text):
             
     cursor.execute('''attach database "''' + whatsapp_wa_db + '''" as wadb ''')
     
-    # try:
-    #     cursor.execute('''
-    #                 SELECT messages.key_remote_jid  AS id, 
-    #                        case 
-    #                           when contact_book_w_groups.recipients is null then messages.key_remote_jid
-    #                           else contact_book_w_groups.recipients
-    #                        end as recipients, 
-    #                        key_from_me              AS direction, 
-    #                        messages.data            AS content, 
-    #                        messages.timestamp/1000       AS send_timestamp, 
-    #                        messages.received_timestamp/1000, 
-    #                        case 
-    #                           when messages.remote_resource is null then messages.key_remote_jid 
-    #                           else messages.remote_resource
-    #                        end AS group_sender,
-    #                        messages.media_url       AS attachment
-    #                 FROM   (SELECT jid, 
-    #                                recipients 
-    #                         FROM   wa.dbo.wa_contacts AS contacts 
-    #                                left join (SELECT gjid, 
-    #                                                  Group_concat(CASE 
-    #                                                                 WHEN jid == "" THEN NULL 
-    #                                                                 ELSE jid 
-    #                                                               END) AS recipients 
-    #                                           FROM   group_participants 
-    #                                           GROUP  BY gjid) AS groups 
-    #                                       ON contacts.jid = groups.gjid 
-    #                         GROUP  BY jid) AS contact_book_w_groups 
-    #                        join messages 
-    #                          ON messages.key_remote_jid = contact_book_w_groups.jid
-    #     ''')
-        
-    #     all_rows = cursor.fetchall()
-    #     usageentries = len(all_rows)
-    # except:
-    #     usageentries = 0
-        
-    # if usageentries > 0:
-    #     report = ArtifactHtmlReport('Whatsapp - Messages')
-    #     report.start_artifact_report(report_folder, 'Whatsapp - Messages')
-    #     report.add_script()
-    #     data_headers = ('Send Timestamp', 'Received Timestamp','Message ID','Recipients', 'Direction', 'Content', 'Group Sender', 'Attachment') # Don't remove the comma, that is required to make this a tuple as there is only 1 element
-    #     data_list = []
-    #     for row in all_rows:
-    #         sendtime = datetime.datetime.fromtimestamp(int(row[4])).strftime('%Y-%m-%d %H:%M:%S')
-    #         receivetime = datetime.datetime.fromtimestamp(int(row[5])).strftime('%Y-%m-%d %H:%M:%S')
-
-    #         data_list.append((sendtime, receivetime, row[0], row[1], row[2], row[3],row[6], row[7]))
-            
-    #     report.write_artifact_data_table(data_headers, data_list, file_found)
-    #     report.end_artifact_report()
-        
-    #     tsvname = f'Whatsapp - Messages'
-    #     tsv(report_folder, data_headers, data_list, tsvname, source_file_msg)
-        
-    #     tlactivity = f'Whatsapp - Messages'
-    #     timeline(report_folder, tlactivity, data_list, data_headers)
-        
-    # else:
-    #     logfunc('No Whatsapp messages data available')
         
     if does_column_exist_in_db(db, 'messages', 'data'):
         
@@ -313,7 +258,7 @@ def get_Whatsapp(files_found, report_folder, seeker, wrap_text):
             report = ArtifactHtmlReport('WhatsApp - One To One Messages')
             report.start_artifact_report(report_folder, 'WhatsApp - One To One Messages')
             report.add_script()
-            data_headers = ('Message Timestamp','Received Timestamp','Other Participant WA User Name','Sending Party JID','Message Direction','Message Type','Message','Media','Local Path To Media','Media File Size','Shared Latitude/Starting Latitude (Live Location)','Shared Longitude/Starting Longitude (Live Location)','Duration Live Location Shared (Seconds)','Final Live Latitude','Final Live Longitude','Final Location Timestamp') # Don't remove the comma, that is required to make this a tuple as there is only 1 element
+            data_headers = ('Message Timestamp','Received Timestamp','Other Participant WA User Name','Sending Party JID','Message Direction','Message Type','Message','Suspicious','Malware', 'Phishing', 'Risk Score','Media','Local Path To Media','Media File Size','Shared Latitude/Starting Latitude (Live Location)','Shared Longitude/Starting Longitude (Live Location)','Duration Live Location Shared (Seconds)','Final Live Latitude','Final Live Longitude','Final Location Timestamp') # Don't remove the comma, that is required to make this a tuple as there is only 1 element
             data_list = []
             for row in all_rows:
               
@@ -323,8 +268,27 @@ def get_Whatsapp(files_found, report_folder, seeker, wrap_text):
                   media = media_to_html(mediaident, files_found, report_folder)
                 else:
                   media = row[7]
-                  
-                data_list.append((row[0], row[1], row[2], row[3], row[4], row[5], row[6], media, row[7], row[8], row[9], row[10], row[11], row[12], row[13], row[14]))
+                text_data = row[6]
+                url=""
+                try:
+                    url = re.search("(?P<url>https?://[^\s]+)", text_data).group("url")
+                except:
+                    url=""
+                suspicious = False
+                malware = False
+                phishing = False
+                risk_score = 0
+                logfunc(url)
+                if url!="":
+                    parsed_link = urllib.parse.quote(url, safe='')
+                    api = "https://ipqualityscore.com/api/json/url/" + key + "/" + parsed_link
+                    response = requests.get(api)
+                    response_json = json.loads(response.content)
+                    suspicious = response_json.get('suspicious', "")
+                    malware = response_json.get('malware', "")
+                    phishing = response_json.get('phishing', "")
+                    risk_score = response_json.get('risk_score', "")
+                data_list.append((row[0], row[1], row[2], row[3], row[4], row[5], row[6],suspicious, malware, phishing, risk_score, media, row[7], row[8], row[9], row[10], row[11], row[12], row[13], row[14]))
 
             report.write_artifact_data_table(data_headers, data_list, whatsapp_msgstore_db, html_no_escape=['Media'])
             report.end_artifact_report()

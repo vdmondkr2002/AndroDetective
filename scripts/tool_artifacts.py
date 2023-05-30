@@ -22,6 +22,8 @@ from scripts.artifacts.siminfo import get_siminfo
 from scripts.artifacts.teams import get_teams
 from scripts.artifacts.usagestatsVersion import get_usagestatsVersion
 from scripts.artifacts.Whatsapp import get_Whatsapp
+from scripts.artifacts.gmail import get_gmailActive
+from scripts.artifacts.gmailEmails import get_gmailEmails
 from scripts.artifacts.wifiHotspot import get_wifiHotspot
 
 from scripts.funcs import *
@@ -38,6 +40,8 @@ tosearch = {
     'chromeCookies':('Chromium', '*/data/data/*/app_chrome/Default/Cookies*'),
     'chromeOfflinePages':('Chromium', '*/data/data/*/app_chrome/Default/Offline Pages/metadata/OfflinePages.db*'),
     'chromeTopSites':('Chromium', '*/data/data/*/app_chrome/Default/Top Sites*'),
+    'gmailActive':('Gmail','*/com.google.android.gm/shared_prefs/Gmail.xml'),
+    'gmailEmails':('Gmail',('*/data/com.google.android.gm/databases/bigTopDataDB.*','*/data/com.google.android.gm/files/downloads/*/attachments/*/*.*','*/data/com.google.android.gm/databases/downloader.db*')),
     'contacts':('Contacts', '**/com.android.providers.contacts/databases/contact*'),
     'googleKeepNotes':('Google Keep', "**/data/com.google.android.keep/databases/keep.db"),
     'messages': ('Messages', ('**/com.google.android.apps.messaging/databases/bugle_db*')),
