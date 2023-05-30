@@ -8,7 +8,7 @@ import re
 
 from scripts.artifacts.api_key import key
 from scripts.artifact_report import ArtifactHtmlReport
-from scripts.funcs import logfunc, tsv, timeline, is_platform_windows, open_sqlite_db_readonly,does_column_exist_in_db
+from scripts.funcs import logfunc, tsv, timeline, is_platform_windows, open_sqlite_db_readonly,does_column_exist_in_db,media_to_html
 
 def get_Whatsapp(files_found, report_folder, seeker, wrap_text):
 

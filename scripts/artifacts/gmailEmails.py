@@ -8,7 +8,7 @@ import requests
 import json
 import re
 
-from scripts.artifacts.api_key import key2
+from scripts.artifacts.api_key import key
 
 from scripts.artifact_report import ArtifactHtmlReport
 from scripts.funcs import logfunc, timeline, tsv,open_sqlite_db_readonly, media_to_html
@@ -139,30 +139,31 @@ def get_gmailEmails(files_found, report_folder, seeker, wrap_text):
                                 attachment = media_to_html(attachpath, files_found, report_folder)
                 
                 
-                # url=""
-                # try:
-                #     url = re.search("(?P<url>https?://[^\s]+)", messagehtml).group("url")
-                # except:
-                #     url=""
+                url=""
+                try:
+                    url = re.search("(?P<url>https?://[^\s]+)", messagehtml).group("url")
+                except:
+                    url=""
                 suspicious = False
                 malware = False
                 phishing = False
                 risk_score = 0
-                # logfunc(url)
-                # if url!="":
-                #     parsed_link = urllib.parse.quote(url, safe='')
-                #     api = "https://ipqualityscore.com/api/json/url/" + key2 + "/" + parsed_link
-                #     response = requests.get(api)
-                #     if is_valid_json(response.content):
-                #         logfunc("Valid JSON")
-                #         response_json = json.loads(response.content)
-                #         suspicious = response_json.get('suspicious', "NA")
-                #         malware = response_json.get('malware', "NA")
-                #         phishing = response_json.get('phishing', "NA")
-                #         risk_score = response_json.get('risk_score', "NA")
-                #         logfunc(str(suspicious))
-                #     else:
-                #         logfunc("Invalid JSON")
+                logfunc(url)
+                if url!="":
+                    parsed_link = urllib.parse.quote(url, safe='')
+                    api = "https://ipqualityscore.com/api/json/url/" + key + "/" + parsed_link
+                    response = requests.get(api)
+                    if is_valid_json(response.content):
+                        logfunc("Valid JSON")
+                        response_json = json.loads(response.content)
+                        logfunc(str(response_json))
+                        suspicious = response_json.get('suspicious', "NA")
+                        malware = response_json.get('malware', "NA")
+                        phishing = response_json.get('phishing', "NA")
+                        risk_score = response_json.get('risk_score', "NA")
+                        logfunc(str(suspicious))
+                    else:
+                        logfunc("Invalid JSON")
 
                 data_list.append((timestamp,serverid,messagehtml,suspicious,malware,phishing,risk_score,attachment,attachname,to,toname,replyto,replytoname,subjectline,mailedby,signedby))
 

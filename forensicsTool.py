@@ -3,7 +3,7 @@ import os
 import PySimpleGUI as sg
 import webbrowser
 from getDumpFIle import get_Dump_File
-
+from cleanDumpFile import clean_dump_file
 from scripts.version_info import version
 from scripts.tool_artifacts import *
  
@@ -105,6 +105,7 @@ while True:
     event, values = window.read()
     isFetchEmulator=False
     if event in (None, 'Close'):   # if user closes window or clicks cancel
+        clean_dump_file()
         break
 
     if event == "SELECT ALL":  
@@ -164,11 +165,13 @@ while True:
                     report_path = report_path[2:]
                 locationmessage = 'Report name: ' + report_path
                 sg.Popup('Processing completed', locationmessage)
+                clean_dump_file()
                 webbrowser.open_new_tab('file://' + report_path)
             else:
                 log_path = out_params.screen_output_file_path
                 if log_path.startswith('\\\\?\\'): # windows
                     log_path = log_path[4:]
+                clean_dump_file()
                 sg.Popup('Processing failed    :( ', f'See log for error details..\nLog file located at {log_path}')
             break
 window.close()

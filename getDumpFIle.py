@@ -130,5 +130,6 @@ def get_Dump_File():
 
     rename_folders(device, "/storage/emulated/0/dumpfile/data/data/com.google.android.gm/")
     subprocess.run(["adb", "pull", "/storage/emulated/0/dumpfile", "."])
+    device.shell("rm -r /storage/emulated/0/dumpfile/")
 
     return  "dumpfile"
