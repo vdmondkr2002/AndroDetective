@@ -53,6 +53,9 @@
     color: #45526e !important
 }
 
+.whole-sidebar-color{
+    color: #4f4557;
+}
 .rgba-mdb-color-slight,
 .rgba-mdb-color-slight:after {
     background-color: rgba(69, 82, 110, 0.1)

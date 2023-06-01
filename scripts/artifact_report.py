@@ -20,8 +20,8 @@ class ArtifactHtmlReport:
     def start_artifact_report(self, report_folder, artifact_file_name, artifact_description=''):
         '''Creates the report HTML file and writes the artifact name as a heading'''
         self.report_file = open(os.path.join(report_folder, f'{artifact_file_name}.temphtml'), 'w', encoding='utf8')
-        self.report_file.write(page_header.format(f'Forensics Tool - {self.artifact_name} report'))
-        self.report_file.write(body_start.format(f'Forensics Tool {version}'))
+        self.report_file.write(page_header.format(f'AndroDetective - {self.artifact_name} report'))
+        self.report_file.write(body_start.format(f'AndroDetective'))
         self.report_file.write(body_sidebar_setup)
         self.report_file.write(body_sidebar_dynamic_data_placeholder) # placeholder for sidebar data
         self.report_file.write(body_sidebar_trailer)

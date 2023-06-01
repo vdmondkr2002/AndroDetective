@@ -76,7 +76,7 @@ pickModules()
 GuiWindow.progress_bar_total = len(process.tosearch)
 
 
-layout = [  [sg.Text('Android Forensics Tool', font=("Helvetica", 22))],
+layout = [  [sg.Text('AndroDetective', font=("Helvetica", 22))],
             
             [sg.Frame(layout=[
                     [sg.Input(size=(80,2), font=(normal_font, 12), default_text=os.getcwd()+'\\dumpfile'), sg.FolderBrowse(font=(normal_font, 12), button_text='Browse Folder'),sg.Text('OR'),sg.Button('Fetch from Emulator',font=(normal_font, 12),)]
@@ -96,7 +96,7 @@ layout = [  [sg.Text('Android Forensics Tool', font=("Helvetica", 22))],
             [sg.Submit('Process',font=normal_font), sg.Button('Close', font=normal_font)] ]
             
 # Create the Window
-window = sg.Window(f'Forensics Tool version {version}', layout,background_color="lightblue")
+window = sg.Window(f'AndroDetective', layout,background_color="lightblue")
 GuiWindow.progress_bar_handle = window['PROGRESSBAR']
 
 
@@ -165,13 +165,13 @@ while True:
                     report_path = report_path[2:]
                 locationmessage = 'Report name: ' + report_path
                 sg.Popup('Processing completed', locationmessage)
-                clean_dump_file()
+                # clean_dump_file()
                 webbrowser.open_new_tab('file://' + report_path)
             else:
                 log_path = out_params.screen_output_file_path
                 if log_path.startswith('\\\\?\\'): # windows
                     log_path = log_path[4:]
-                clean_dump_file()
+                # clean_dump_file()
                 sg.Popup('Processing failed    :( ', f'See log for error details..\nLog file located at {log_path}')
             break
 window.close()

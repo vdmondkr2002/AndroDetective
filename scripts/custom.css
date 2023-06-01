@@ -2,6 +2,7 @@
 /* --------------------------------CUSTOM CSS - -------------------------------*/
 .navbar {
     justify-content: normal;
+    background: #393646;
 }
 .custom-control {
     position: fixed;
@@ -48,7 +49,6 @@ button {
   top:8px;
 }
     
-}
 #main {margin-left: 16.6666666666667%;
 transition: 0.5s;}
 

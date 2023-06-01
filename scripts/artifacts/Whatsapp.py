@@ -293,14 +293,14 @@ def get_Whatsapp(files_found, report_folder, seeker, wrap_text):
             report.write_artifact_data_table(data_headers, data_list, whatsapp_msgstore_db, html_no_escape=['Media'])
             report.end_artifact_report()
             
-            tsvname = f'WhatsApp - One To One Messages'
+            tsvname = f'WhatsApp - Messages'
             tsv(report_folder, data_headers, data_list, tsvname, whatsapp_msgstore_db)
 
-            tlactivity = f'WhatsApp - One To One Messages'
+            tlactivity = f'WhatsApp - Messages'
             timeline(report_folder, tlactivity, data_list, data_headers)
             
         else:
-            logfunc('No WhatsApp - One To One Messages found')
+            logfunc('No WhatsApp - Messages found')
 
     db.close()
 

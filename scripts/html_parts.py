@@ -16,6 +16,7 @@ page_header = \
         <link rel="stylesheet" href="_elements/MDB-Free_4.13.0/css/bootstrap.min.css">
         <!-- Material Design Bootstrap - TOGGLE THIS FOR ALTERNATE DESIGN!-->
         <link rel="stylesheet" href="_elements/MDB-Free_4.13.0/css/mdb.min.css">
+        <link rel="stylesheet" href="_elements/MDB-Free_4.13.0/css/mdb.css">
         <!-- Your custom styles (optional) -->
         <link rel="stylesheet" href="_elements/dashboard.css">
         <link rel="stylesheet" href="_elements/custom.css"> <!-------Link to custom.css-------!>
@@ -26,6 +27,7 @@ page_header = \
         <!--script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script-->
         <script src="_elements/feather.min.js"></script>
         <script src="_elements/sidebar.js"></script> <!-------Link to sidebar.js-------!>
+
     </head>
     <body>
 """
@@ -34,11 +36,11 @@ page_header = \
 body_start = \
 """
     <!-- Start your project here-->
-    <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+    <nav class="navbar navbar-bg fixed-top flex-md-nowrap p-0 shadow">
      <button type="button" class="toggle" id="toggle" onclick="sidebar_toggle()">  <!-------Added toggle button-------!>
        <span></span>
       </button>
-        <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">{0}</a>
+        <a class="navbar-brand col-sm-3 col-md-2 mr-0" style="color:white"  href="#">{0}</a>
     </nav>
 
     <div class="container-fluid">
@@ -46,7 +48,7 @@ body_start = \
 """
 body_sidebar_setup = \
 """
-            <nav class="col-md-2 d-none d-md-block bg-light sidebar" id="sidebar_id"> <!-------Added html ID tag sidebar_id-------!>
+            <nav class="col-md-2 d-none d-md-block sidebar sidebar-new" id="sidebar_id"> <!-------Added html ID tag sidebar_id-------!>
                 <div class="sidebar-sticky" id="sidebar_id">
                     <ul class="nav flex-column">
 """
@@ -55,11 +57,11 @@ body_sidebar_setup = \
 # Below is sample data, use own generated data!
 body_sidebar_dynamic_data = \
 """
-                        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+                        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted text-white">
                             Saved reports
                         </h6>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link"href="#">
                                 <span data-feather="home"></span> Report Home
                             </a>
                         </li>
@@ -117,13 +119,13 @@ body_sidebar_trailer = \
 
 body_main_header = \
 """
-            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4" id="main"> <!-------Added html ID tag main-------!>
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4 main-bg" id="main"> <!-------Added html ID tag main-------!>
 """
 # Variable {title}, {description}
 body_main_data_title = \
 """
                 <div class="justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                    <h1 class="display-5">{0}</h1>
+                    <h1 class="display-5 main-title">{0}</h1>
                     <h6 class="animated fadeIn mb-3">{1}</h6>
                 </div>
 """
@@ -142,20 +144,13 @@ body_infinite_loading_bar = \
 # body_main_data is a placeholder, replace content with real data
 body_main_data = \
 """
-                <h5>All dates and times are in UTC unless stated otherwise.</h5>
-                <div class="alert alert-warning" role="alert">
-                    All dates and times are in UTC unless noted otherwise!
-                </div>
-                <p class="note note-primary mb-4">
-                    All dates and times are in UTC unless noted otherwise!
-                </p>
                 <h2>Case</h2>
                 <div class="table-responsive">
                     <table class="table table-bordered table-hover table-sm" width="70%">
                         <tbody>
                             <tr>
                                 <td>Extraction Location</td>
-                                <td>N:\aleapp_images\Pixel 5</td>
+                                <td></td>
                             </tr>
                         </tbody>
                     </table>
@@ -165,6 +160,7 @@ body_main_data = \
                     <h1>Android Events</h1>
                 </div>
 """
+
 # tabs code for Case information in index.html
 # Variables are {case_table_code}, {script_run_log}, {processed_file_list}
 tabs_code = \
@@ -186,7 +182,7 @@ tabs_code = \
     <div class="tab-content" id="myTabContent">
         <div class="tab-pane fade show active" id="case" role="tabpanel" aria-labelledby="case-tab"><br />{}</div>
         <div class="tab-pane fade" id="device" role="tabpanel" aria-labelledby="device-tab"><br />{}</div>
-        <div class="tab-pane fade text-monospace" id="run" role="tabpanel" aria-labelledby="script-run-tab"><br />{}</div>
+        <div class="tab-pane fade text-monospace cmd-bg" id="run" role="tabpanel" aria-labelledby="script-run-tab"><br />{}</div>
         <div class="tab-pane fade" id="files" role="tabpanel" aria-labelledby="profile-tab"><br />{}</div>
     </div>
 """

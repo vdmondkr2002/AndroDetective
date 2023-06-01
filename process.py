@@ -12,7 +12,7 @@ def crunch_artifacts(search_list, extracttype, input_path, out_params, ratio, wr
     logfunc('Procesing started. Please wait. This may take a few minutes...')
 
     logfunc('\n--------------------------------------------------------------------------------------')
-    logfunc(f'Forensics Tool v{version}')
+    logfunc(f'AndroDetective')
     logdevinfo()
 
     seeker = FileSeekerDir(input_path)
