@@ -66,7 +66,7 @@ def pickModules():
         mlist.append( CheckList(val[0] + f' [{key}]', indx, key, disabled) )
         indx = indx + 1
         
-sg.theme('LightGray1')   # Add a touch of color
+# sg.theme('LightGray1')   # Add a touch of color
 # All the stuff inside your window.
 
 normal_font = ("Helvetica", 12)
@@ -89,14 +89,14 @@ layout = [  [sg.Text('AndroDetective', font=("Helvetica", 22))],
                 ], 
                     title='Select Output Folder:')],
             [sg.Text('Available Modules')],
-            [sg.Button('SELECT ALL',button_color=("white", "green"), size=(15, 2), font=("Helvetica", 12, "bold"),pad=(10, 10)), 
-                sg.Button('DESELECT ALL',button_color=("white", "orange"), size=(10, 2), font=("Helvetica", 12, "bold"),pad=(10, 10))], 
+            [sg.Button('SELECT ALL', size=(15, 2), font=("Helvetica", 12, "bold"),pad=(10, 10)), 
+                sg.Button('DESELECT ALL',size=(10, 2), font=("Helvetica", 12, "bold"),pad=(10, 10))], 
             [sg.Column(mlist, size=(300,310), scrollable=True),  sg.Output(size=(85,20))] ,
             [sg.ProgressBar(max_value=GuiWindow.progress_bar_total, orientation='h', size=(86, 7), key='PROGRESSBAR', bar_color=('DarkGreen', 'White'))],
             [sg.Submit('Process',font=normal_font), sg.Button('Close', font=normal_font)] ]
             
 # Create the Window
-window = sg.Window(f'AndroDetective', layout,background_color="lightblue")
+window = sg.Window(f'AndroDetective', layout)
 GuiWindow.progress_bar_handle = window['PROGRESSBAR']
 
 
