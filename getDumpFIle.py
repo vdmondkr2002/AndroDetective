@@ -29,7 +29,9 @@ list_file = [
     "/data/data/com.whatsapp/shared_prefs/",
     "/data/data/com.whatsapp/files",
     "/data/misc/wifi/",
-    "/data/data/com.google.android.gm/"
+    "/data/data/com.google.android.gm/",
+    "/data/data/com.google.android.apps.maps/databases/",
+    "/data/data/com.google.android.gms/databases/"
 ]
 
 

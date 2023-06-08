@@ -1,8 +1,10 @@
 import html
 import os
+import gmaps
 from scripts.html_parts import *
 from scripts.funcs import is_platform_windows
 from scripts.version_info import version
+from scripts.funcs import logfunc
 
 class ArtifactHtmlReport:
 
@@ -29,7 +31,9 @@ class ArtifactHtmlReport:
         self.report_file.write(body_main_data_title.format(f'{self.artifact_name} report', artifact_description))
         self.report_file.write(body_spinner) # Spinner till data finishes loading
         #self.report_file.write(body_infinite_loading_bar) # Not working!
+        
 
+   
     def add_script(self, script=''):
         '''Adds a default script or the script supplied'''
         if script:
@@ -65,44 +69,92 @@ class ArtifactHtmlReport:
             
             html_no_escape  : if html_escape=True, list of columns not to escape
         '''
-        if (not self.report_file):
-            raise ValueError('Output report file is closed/unavailable!')
+        if self.artifact_name == 'Google Maps History':
+            # self.report_file.write("<h1>Hello</h1>")
+            # gmaps.configure(api_key='AIzaSyAgruap5-RY0RJeN1aNk8PU1lQH3saI3gM')
+            # src = (37.4219983,-122.084)
+            # dest = (34.0522342,-118.243)
+            # fig = gmaps.figure()
+            # layer = gmaps.directions.Directions(src,dest,mode='car')
+            # fig.add_layer(layer)
+            # self.report_file.write(f'{fig}')
+            self.report_file.write('<div id="map" style="width:100%;height:600px;background:green"></div>')
+            self.report_file.write('''<script>  
+            function Map123() {  
+            var mapOptions = {  
+                center:new google.maps.LatLng(19.2336042,73.1363381),  
+                zoom: 14,  
+                mapTypeId: google.maps.MapTypeId.HYBRID  
+            }  
+            var map = new google.maps.Map(document.getElementById("map"), mapOptions); 
+            var marker1 = new google.maps.Marker({
+                position: {lat: 19.223109, lng:  73.146767}, // Set the marker position
+                map: map // Set the map to add the marker to
+            }); 
+            var marker2 = new google.maps.Marker({
+                position: {lat:19.2288023 ,lng:73.1127825},
+                map:map
+            })
+            var directionsService = new google.maps.DirectionsService();
+            var directionsRenderer = new google.maps.DirectionsRenderer({
+                map: map
+            });
 
-        num_entries = len(data_list)
-        if write_total:
-            self.write_minor_header(f'Total number of entries: {num_entries}', 'h6')
-        # if write_location:
-        #     if is_platform_windows():
-        #         source_path = source_path.replace('/', '\\')
-        #     if source_path.startswith('\\\\?\\'):
-        #         source_path = source_path[4:]
-        #     self.write_lead_text(f'{self.artifact_name} located at: {source_path}')
+            var request = {
+                origin: marker1.position,
+                destination: marker2.position,
+                travelMode: google.maps.TravelMode.DRIVING
+            };
 
-        self.report_file.write('<br />')
+            directionsService.route(request, function(result, status) {
+                if (status == google.maps.DirectionsStatus.OK) {
+                    directionsRenderer.setDirections(result);
+                }
+            });
+            }  
+            </script>  
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgruap5-RY0RJeN1aNk8PU1lQH3saI3gM&callback=Map123"></script>  
+            ''')
 
-        if table_responsive:
-            self.report_file.write("<div class='table-responsive'>")
-        
-        table_head = '<table id="{}" class="table table-striped table-bordered table-xsm" cellspacing="0" {}>'\
-                     '<thead>'.format(table_id, (f'style="{table_style}"') if table_style else '')
-        self.report_file.write(table_head)
-        self.report_file.write('<tr>' + ''.join( ('<th class="th-sm">{}</th>'.format(html.escape(str(x))) for x in data_headers) ) + '</tr>')
-        self.report_file.write('</thead><tbody>')
-
-        if html_escape:
-            for row in data_list:
-                if html_no_escape:
-                    self.report_file.write('<tr>' + ''.join( ('<td>{}</td>'.format(html.escape(str(x) if x not in [None, 'N/A'] else '')) if h not in html_no_escape else '<td>{}</td>'.format(str(x) if x not in [None, 'N/A'] else '') for x,h in zip(row, data_headers)) )  + '</tr>')
-                else:
-                    self.report_file.write('<tr>' + ''.join( ('<td>{}</td>'.format(html.escape(str(x) if x not in [None, 'N/A'] else '')) for x in row) ) + '</tr>')
         else:
-            for row in data_list:
-                self.report_file.write('<tr>' + ''.join( ('<td>{}</td>'.format(str(x) if x != None else '') for x in row) ) + '</tr>')
-        
-        self.report_file.write('</tbody>')
-        self.report_file.write('</table>')
-        if table_responsive:
-            self.report_file.write("</div>")
+            if (not self.report_file):
+                raise ValueError('Output report file is closed/unavailable!')
+
+            num_entries = len(data_list)
+            if write_total:
+                self.write_minor_header(f'Total number of entries: {num_entries}', 'h6')
+            # if write_location:
+            #     if is_platform_windows():
+            #         source_path = source_path.replace('/', '\\')
+            #     if source_path.startswith('\\\\?\\'):
+            #         source_path = source_path[4:]
+            #     self.write_lead_text(f'{self.artifact_name} located at: {source_path}')
+
+            self.report_file.write('<br />')
+
+            if table_responsive:
+                self.report_file.write("<div class='table-responsive'>")
+            
+            table_head = '<table id="{}" class="table table-striped table-bordered table-xsm" cellspacing="0" {}>'\
+                        '<thead>'.format(table_id, (f'style="{table_style}"') if table_style else '')
+            self.report_file.write(table_head)
+            self.report_file.write('<tr>' + ''.join( ('<th class="th-sm">{}</th>'.format(html.escape(str(x))) for x in data_headers) ) + '</tr>')
+            self.report_file.write('</thead><tbody>')
+
+            if html_escape:
+                for row in data_list:
+                    if html_no_escape:
+                        self.report_file.write('<tr>' + ''.join( ('<td>{}</td>'.format(html.escape(str(x) if x not in [None, 'N/A'] else '')) if h not in html_no_escape else '<td>{}</td>'.format(str(x) if x not in [None, 'N/A'] else '') for x,h in zip(row, data_headers)) )  + '</tr>')
+                    else:
+                        self.report_file.write('<tr>' + ''.join( ('<td>{}</td>'.format(html.escape(str(x) if x not in [None, 'N/A'] else '')) for x in row) ) + '</tr>')
+            else:
+                for row in data_list:
+                    self.report_file.write('<tr>' + ''.join( ('<td>{}</td>'.format(str(x) if x != None else '') for x in row) ) + '</tr>')
+            
+            self.report_file.write('</tbody>')
+            self.report_file.write('</table>')
+            if table_responsive:
+                self.report_file.write("</div>")
 
     def add_section_heading(self, heading, size='h2'):
         heading = html.escape(heading)

@@ -25,6 +25,7 @@ from scripts.artifacts.Whatsapp import get_Whatsapp
 from scripts.artifacts.gmail import get_gmailActive
 from scripts.artifacts.gmailEmails import get_gmailEmails
 from scripts.artifacts.wifiHotspot import get_wifiHotspot
+from scripts.artifacts.googleMapsMain import get_googleMapsMain
 
 from scripts.funcs import *
 
@@ -43,6 +44,8 @@ tosearch = {
     'gmailActive':('Gmail','*/com.google.android.gm/shared_prefs/Gmail.xml'),
     'gmailEmails':('Gmail',('*/data/com.google.android.gm/databases/bigTopDataDB.*','*/data/com.google.android.gm/files/downloads/*/attachments/*/*.*','*/data/com.google.android.gm/databases/downloader.db*')),
     'contacts':('Contacts', '**/com.android.providers.contacts/databases/contact*'),
+    'googleMapsMain':('Maps',('*/data/com.google.android.apps.maps/databases/gmm_storage.db*')),
+    'googleMapsLocation':('Maps',('*/com.google.android.apps.maps/databases/da_destination_history*')),
     'googleKeepNotes':('Google Keep', "**/data/com.google.android.keep/databases/keep.db"),
     'messages': ('Messages', ('**/com.google.android.apps.messaging/databases/bugle_db*')),
     'last_boot_time': ('Power Events', '**/data/misc/bootstat/last_boot_time_utc'),
@@ -54,7 +57,7 @@ tosearch = {
     'usagestatsVersion':('Usage Stats', '*/system/usagestats/*/version'),
     'Whatsapp':('Whatsapp', ('*/com.whatsapp/databases/*.db*','**/com.whatsapp/shared_prefs/com.whatsapp_preferences_light.xml')),
     'wifiHotspot':('WiFi Profiles', '**/misc/wifi/softap.conf'),
-    }
+}
 
 slash = '\\' if is_platform_windows() else '/'
 
